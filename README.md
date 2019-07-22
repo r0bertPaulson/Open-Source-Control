@@ -4,6 +4,7 @@ Collection of Open Source IoT Designs
 This device will be suitable for control of automated and networked building equipment at the unitary level. For example, you could control a single airconditioner unit with this device. This design has be superseded by Version 2.0
 -Unitary Controller Version 2.0-
 6 input, 5 relay output controller board using OSD3358-512M-ICB (C-SiP). Changed to C-SiP due to advantages of a fully encapsulated EMMC and main oscillator in an industrial temperature rated package.
+
 Project Status:
 1) Both Boards are untested.
 2) First Board (Version 2.0) in testing. EEPROM programmed to BBB. Device boots Debian images correctly main communication interfaces 
