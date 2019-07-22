@@ -6,4 +6,5 @@ This device will be suitable for control of automated and networked building equ
 6 input, 5 relay output controller board using OSD3358-512M-ICB (C-SiP). Changed to C-SiP due to advantages of a fully encapsulated EMMC and main oscillator in an industrial temperature rated package.
 Project Status:
 1) Both Boards are untested.
-2) First Board (Version 2.0) in fabrication. Testing to begin July 6 2019
+2) First Board (Version 2.0) in testing. EEPROM programmed to BBB. Device boots Debian images correctly main communication interfaces 
+(USB, Serial, Ethernet) seem to work correctly. Testing continues
