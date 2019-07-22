@@ -7,5 +7,5 @@ This device will be suitable for control of automated and networked building equ
 
 Project Status:
 1) Both Boards are untested.
-2) First Board (Version 2.0) in testing. EEPROM programmed to BBB. Device boots Debian images correctly main communication interfaces 
+2) First Board (Version 2.0) in testing. EEPROM programmed to BBB. Device boots Debian images correctly. Main communication interfaces 
 (USB, Serial, Ethernet) seem to work correctly. Testing continues
