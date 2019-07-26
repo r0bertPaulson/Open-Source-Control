@@ -10,3 +10,4 @@ Project Status:
 2) Prototype Version 2.0 has been built. Revisions will be incorperated into 2.1 (future)
 3) First Board (Version 2.0) in testing. EEPROM programmed to BBB. Device boots Debian images correctly. Main communication interfaces 
 (USB, Serial, Ethernet) seem to work correctly. Testing continues.
+4) There is a flaw in the I2C bus connected to the RTC caused by renaming which caused the SCL trace to become disconnected.
