@@ -13,4 +13,4 @@ Project Status:
 3) Version 2.0 in testing. EEPROM programmed to BBB. Device boots Debian images correctly. Main communication interfaces 
 (USB, Serial, Ethernet) seem to work correctly.
 4) There is an error in the I2C bus connected to the RTC caused by renaming to I2C1 which caused the SCL trace to become disconnected. Flaw cannot be reworked as it is under the SiP package. To be fixed in 2.1
-
+5) Relay outputs seem to work correctly. BO1 will be changed to GPIO1_17 (GPIO 49) in Rev 2.1.
