@@ -16,3 +16,4 @@ Project Status:
 5) Relay outputs seem to work correctly. BO1 will be changed to GPIO1_17 (GPIO 49) in Rev 2.1.
 6) Power inductor L2 is wrong value (470uH, way too high but power supply still works). To be revised to 47uH.
 7) User config switches (rotary and dip switches) work correctly. Note: Chip Select CS0 must be set high for the HC165.
+8) Battery charger / Battery Backup seems to work correctly.
