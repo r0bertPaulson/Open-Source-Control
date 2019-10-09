@@ -7,6 +7,9 @@ This device will be suitable for control of automated and networked building equ
 -Unitary Controller Version 2.0-
 6 input, 5 relay output controller board using OSD3358-512M-ICB (C-SiP). Changed to C-SiP due to advantages of a fully encapsulated EMMC and main oscillator in an industrial temperature rated package.
 
+-Unitary Controller Version 2.1-
+Revised device based on lessons learned from first prototype (2.0). Revisions in progress
+
 Project Status:
 1) Version 1.0 will not be built or tested and has been superseded by Version 2.0.
 2) Prototype Version 2.0 has been built. Revisions will be incorperated into 2.1 (future)
