@@ -26330,7 +26330,11 @@ necessary.</text>
 <text x="12.7" y="10.16" size="4.318" layer="150">To Print:  Use 8.5"x11" 
 paper in landscape; 
 0.69 scaling factor.</text>
-<text x="63.5" y="38.1" size="2.54" layer="150" rot="MR0">Reset supervisor circuit</text>
+<text x="71.12" y="30.48" size="2.54" layer="150" rot="MR0">Reset supervisor circuit:
+Reset asserted if VCC
+drops below V threshold,
+push button or POR.
+De-asserted after 240ms</text>
 <text x="10.16" y="121.92" size="2.54" layer="150">The OSD335x-SM contains 
 4.7k pull-up resistors on I2C0.
 External resistors added so
@@ -28357,17 +28361,17 @@ for your application.</text>
 <attribute name="NAME" x="469.9" y="322.58" size="1.778" layer="95" align="top-right"/>
 <attribute name="VALUE" x="485.14" y="322.58" size="1.778" layer="96" align="top-right"/>
 </instance>
-<instance part="X31" gate=".1" x="1089.66" y="787.4" smashed="yes">
-<attribute name="NAME" x="1082.04" y="789.305" size="1.524" layer="95"/>
+<instance part="X31" gate=".1" x="1087.12" y="805.18" smashed="yes">
+<attribute name="NAME" x="1079.5" y="807.085" size="1.524" layer="95"/>
 </instance>
-<instance part="X31" gate=".2" x="1089.66" y="782.32" smashed="yes">
-<attribute name="NAME" x="1082.04" y="784.225" size="1.524" layer="95"/>
+<instance part="X31" gate=".2" x="1087.12" y="800.1" smashed="yes">
+<attribute name="NAME" x="1079.5" y="802.005" size="1.524" layer="95"/>
 </instance>
-<instance part="X31" gate=".3" x="1089.66" y="777.24" smashed="yes">
-<attribute name="NAME" x="1082.04" y="779.145" size="1.524" layer="95"/>
+<instance part="X31" gate=".3" x="1087.12" y="795.02" smashed="yes">
+<attribute name="NAME" x="1079.5" y="796.925" size="1.524" layer="95"/>
 </instance>
-<instance part="X31" gate=".4" x="1089.66" y="772.16" smashed="yes">
-<attribute name="NAME" x="1082.04" y="774.065" size="1.524" layer="95"/>
+<instance part="X31" gate=".4" x="1087.12" y="789.94" smashed="yes">
+<attribute name="NAME" x="1079.5" y="791.845" size="1.524" layer="95"/>
 </instance>
 <instance part="U29" gate="A" x="883.92" y="807.72" smashed="yes">
 <attribute name="NAME" x="886.46" y="807.72" size="2.0828" layer="95" ratio="6" rot="SR0"/>
