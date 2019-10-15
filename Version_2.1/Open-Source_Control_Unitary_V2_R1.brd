@@ -581,28 +581,6 @@ chip</description>
 <rectangle x1="-1.2" y1="-1.2" x2="-0.1" y2="-0.1" layer="31"/>
 <rectangle x1="0.1" y1="-1.2" x2="1.2" y2="-0.1" layer="31"/>
 </package>
-<package name="W-PDFN-8">
-<smd name="2" x="-2.75" y="0.635" dx="1.05" dy="0.45" layer="1" roundness="50"/>
-<smd name="1" x="-2.75" y="1.905" dx="1.05" dy="0.45" layer="1" roundness="50"/>
-<smd name="3" x="-2.75" y="-0.635" dx="1.05" dy="0.45" layer="1" roundness="50"/>
-<smd name="4" x="-2.75" y="-1.905" dx="1.05" dy="0.45" layer="1" roundness="50"/>
-<circle x="-1.51" y="2.2" radius="0.070709375" width="0.127" layer="21"/>
-<smd name="5" x="2.75" y="-1.905" dx="1.05" dy="0.45" layer="1" roundness="50"/>
-<smd name="6" x="2.75" y="-0.635" dx="1.05" dy="0.45" layer="1" roundness="50"/>
-<smd name="7" x="2.75" y="0.635" dx="1.05" dy="0.45" layer="1" roundness="50"/>
-<smd name="8" x="2.75" y="1.905" dx="1.05" dy="0.45" layer="1" roundness="50"/>
-<smd name="PAD" x="0" y="0" dx="3.2" dy="3.2" layer="1"/>
-<wire x1="-1.85" y1="-2.5" x2="-1.85" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-1.85" y1="2.5" x2="1.85" y2="2.5" width="0.127" layer="21"/>
-<wire x1="1.85" y1="2.5" x2="1.85" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="1.85" y1="-2.5" x2="-1.85" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.4" y1="2.7" x2="-3.4" y2="-2.7" width="0" layer="39"/>
-<wire x1="-3.4" y1="-2.7" x2="3.4" y2="-2.7" width="0" layer="39"/>
-<wire x1="3.4" y1="-2.7" x2="3.4" y2="2.7" width="0" layer="39"/>
-<wire x1="3.4" y1="2.7" x2="-3.4" y2="2.7" width="0" layer="39"/>
-<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="XYZ-LABEL">
 <wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="21"/>
 <wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="21"/>
@@ -4280,8 +4258,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="X6" library="OSD3358-BSP Ref Design" package="H6-2.54" value="6p-2.54" x="20.32" y="59.69" smashed="yes" rot="R270">
 <attribute name="MPN" value="P125-1106A1BS116A1" x="20.32" y="59.69" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="17.78" y="59.055" size="0.635" layer="33" ratio="10"/>
 <attribute name="NAME" x="12.573" y="58.293" size="1.016" layer="25" align="top-left"/>
+<attribute name="NAME" x="17.78" y="59.055" size="0.635" layer="33" ratio="10"/>
 <attribute name="VALUE" x="20.32" y="59.182" size="0.254" layer="27" align="top-center"/>
 </element>
 <element name="MGT1" library="OSD3358-BSP Ref Design" package="MOUNTING_HOLE" value="MOUNTING_HOLE" x="36.195" y="3.175" smashed="yes"/>
@@ -4431,22 +4409,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="R85" library="OSD3358-BSP Ref Design" package="R0402" value="100K, 1%, DNI" x="87.122" y="79.248" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.0044" y="78.74" size="0.8128" layer="25" align="bottom-right"/>
 <attribute name="VALUE" x="87.122" y="78.8416" size="0.254" layer="27" align="top-center"/>
-</element>
-<element name="R36" library="OSD3358-BSP Ref Design" package="R0402" value="1.5K, 1%" x="75.057" y="16.1544" smashed="yes">
-<attribute name="NAME" x="73.914" y="16.1544" size="0.8128" layer="25" align="center-right"/>
-<attribute name="VALUE" x="75.057" y="15.748" size="0.254" layer="27" align="top-center"/>
-</element>
-<element name="R37" library="OSD3358-BSP Ref Design" package="R0402" value="1.5K, 1%" x="75.057" y="17.399" smashed="yes">
-<attribute name="NAME" x="73.914" y="17.399" size="0.8128" layer="25" align="center-right"/>
-<attribute name="VALUE" x="75.057" y="16.9926" size="0.254" layer="27" align="top-center"/>
-</element>
-<element name="R38" library="OSD3358-BSP Ref Design" package="R0402" value="1.5K, 1%" x="75.0316" y="18.5928" smashed="yes">
-<attribute name="NAME" x="73.8886" y="18.5928" size="0.8128" layer="25" align="center-right"/>
-<attribute name="VALUE" x="75.0316" y="18.1864" size="0.254" layer="27" align="top-center"/>
-</element>
-<element name="OR35" library="OSD3358-BSP Ref Design" package="R0402" value="1.5K, 1%" x="75.0824" y="14.9606" smashed="yes">
-<attribute name="NAME" x="73.9394" y="14.9606" size="0.8128" layer="25" align="center-right"/>
-<attribute name="VALUE" x="75.0824" y="14.5542" size="0.254" layer="27" align="top-center"/>
 </element>
 <element name="R69" library="OSD3358-BSP Ref Design" package="R0402" value="100, 1%" x="106.172" y="76.454" smashed="yes">
 <attribute name="NAME" x="106.172" y="75.946" size="0.8128" layer="25" align="top-center"/>
@@ -4607,10 +4569,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="44.45" y="57.9882" size="0.8128" layer="25" align="top-right"/>
 <attribute name="VALUE" x="44.45" y="58.3184" size="0.254" layer="27" align="top-center"/>
 </element>
-<element name="U21" library="OSD3358-BSP Ref Design" package="W-PDFN-8" value="S25FL127S" x="76.3778" y="4.445" smashed="yes">
-<attribute name="NAME" x="79.8322" y="7.2136" size="0.8128" layer="25"/>
-<attribute name="VALUE" x="76.3778" y="2.7686" size="0.254" layer="27" align="top-center"/>
-</element>
 <element name="C85" library="OSD3358-BSP Ref Design" package="C0402" value="2200pF, 6.3V" x="48.514" y="60.579" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.514" y="58.8518" size="0.8128" layer="25" rot="R90" align="center-right"/>
 <attribute name="VALUE" x="48.8188" y="60.579" size="0.254" layer="27" rot="R90" align="top-center"/>
@@ -4626,22 +4584,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="C79" library="OSD3358-BSP Ref Design" package="C0402" value="0.1uF, 6.3V" x="38.227" y="60.579" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.735" y="61.6966" size="0.8128" layer="25" rot="R90"/>
 <attribute name="VALUE" x="38.5572" y="60.579" size="0.254" layer="27" rot="R90" align="top-center"/>
-</element>
-<element name="R160" library="OSD3358-BSP Ref Design" package="R0402" value="10K, 1%" x="72.0598" y="3.7084" smashed="yes" rot="R270">
-<attribute name="NAME" x="71.1962" y="3.556" size="0.8128" layer="25" rot="R270" align="top-center"/>
-<attribute name="VALUE" x="71.6534" y="3.7084" size="0.254" layer="27" rot="R270" align="top-center"/>
-</element>
-<element name="R161" library="OSD3358-BSP Ref Design" package="R0402" value="10K, 1%" x="69.9262" y="6.1722" smashed="yes" rot="R90">
-<attribute name="NAME" x="70.358" y="6.2484" size="0.8128" layer="25" rot="R90" align="top-center"/>
-<attribute name="VALUE" x="70.3326" y="6.1722" size="0.254" layer="27" rot="R90" align="top-center"/>
-</element>
-<element name="R158" library="OSD3358-BSP Ref Design" package="R0402" value="100K, 1%" x="72.0598" y="6.0706" smashed="yes" rot="R270">
-<attribute name="NAME" x="71.5518" y="4.953" size="0.8128" layer="25" rot="R90"/>
-<attribute name="VALUE" x="72.4662" y="6.0706" size="0.254" layer="27" rot="R90" align="top-center"/>
-</element>
-<element name="C93" library="OSD3358-BSP Ref Design" package="C0402" value="0.1uF, 6.3V" x="68.8086" y="6.1976" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.7672" y="6.1722" size="0.8128" layer="25" rot="R90" align="top-center"/>
-<attribute name="VALUE" x="69.1134" y="6.1976" size="0.254" layer="27" rot="R90" align="top-center"/>
 </element>
 <element name="U$2" library="OSD3358-BSP Ref Design" package="XYZ-LABEL" value="" x="60.96" y="0.635" smashed="yes"/>
 <element name="C11" library="OSD3358-SM-RED Platform" package="C/6032-28R" value="220uF, 6.3V T491C227K006AT" x="81.915" y="100.965" smashed="yes" rot="R180">
@@ -4664,25 +4606,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="68.9864" y="88.9" size="0.8128" layer="26" ratio="10" rot="MR0" align="bottom-right"/>
 <attribute name="VALUE" x="68.58" y="88.9" size="0.0254" layer="28" rot="MR0"/>
 </element>
-<element name="TP27" library="OSD3358-BSP Ref Design" package="TP_B0,65" value="TPB0,65" x="68.707" y="3.5814" smashed="yes">
-<attribute name="NAME" x="68.5546" y="1.2954" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="68.707" y="3.175" size="0.0254" layer="27"/>
-</element>
-<element name="TP28" library="OSD3358-BSP Ref Design" package="TP_B0,65" value="TPB0,65" x="67.8434" y="3.5814" smashed="yes">
-<attribute name="NAME" x="66.0654" y="1.2954" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="67.8434" y="3.175" size="0.0254" layer="27"/>
-</element>
 <element name="R10" library="OSD3358-BSP Ref Design" package="R0805" value="0, 1%" x="12.7" y="97.5868" smashed="yes">
 <attribute name="NAME" x="12.319" y="98.7298" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="12.5476" y="96.4184" size="0.254" layer="27"/>
-</element>
-<element name="TP29" library="OSD3358-SM-RED Platform" package="TP_B0,65" value="TPB0,65" x="68.707" y="4.3688" smashed="yes">
-<attribute name="NAME" x="68.5546" y="1.7526" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="68.707" y="3.9624" size="0.0254" layer="27"/>
-</element>
-<element name="TP30" library="OSD3358-SM-RED Platform" package="TP_B0,65" value="TPB0,65" x="67.8434" y="4.3688" smashed="yes">
-<attribute name="NAME" x="66.0654" y="1.8034" size="0.8128" layer="25" ratio="10"/>
-<attribute name="VALUE" x="67.8434" y="3.9624" size="0.0254" layer="27"/>
 </element>
 <element name="U1" library="Octavo-Systems" package="OSD335X-BGA-400" value="OSD3358-512M-ICB" x="60.96" y="88.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="74.93" y="101.6" size="0.8128" layer="25" rot="R270"/>
@@ -5316,30 +5242,6 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="OC_NEWARK" value="unknown" x="118.2624" y="46.99" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="121.539" y="75.184" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="OR285" library="OSD3358-SM-RED Platform" package="R0402" value="10K, 1%" x="69.0118" y="14.2748" smashed="yes" rot="R270">
-<attribute name="NAME" x="67.9958" y="14.0208" size="0.8128" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="69.4182" y="14.2748" size="0.254" layer="27" rot="R90" align="top-center"/>
-</element>
-<element name="OR281" library="OSD3358-SM-RED Platform" package="R0402" value="10K, 1%" x="67.8942" y="14.2748" smashed="yes" rot="R90">
-<attribute name="NAME" x="67.0052" y="14.1224" size="0.8128" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="68.3006" y="14.2748" size="0.254" layer="27" rot="R90" align="top-center"/>
-</element>
-<element name="R292" library="OSD3358-SM-RED Platform" package="R0402" value="10K, 1%" x="67.4878" y="19.3802" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.9798" y="18.2626" size="0.8128" layer="25" rot="R90" align="center-right"/>
-<attribute name="VALUE" x="67.8942" y="19.3802" size="0.254" layer="27" rot="R90" align="top-center"/>
-</element>
-<element name="R293" library="OSD3358-SM-RED Platform" package="R0402" value="10K, 1%" x="68.4276" y="19.3802" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.3768" y="16.9164" size="0.8128" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="68.834" y="19.3802" size="0.254" layer="27" rot="R90" align="top-center"/>
-</element>
-<element name="R294" library="OSD3358-SM-RED Platform" package="R0402" value="10K, 1%" x="69.3674" y="19.3802" smashed="yes" rot="R90">
-<attribute name="NAME" x="69.3674" y="16.9418" size="0.8128" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="69.7738" y="19.3802" size="0.254" layer="27" rot="R90" align="top-center"/>
-</element>
-<element name="OR291" library="OSD3358-SM-RED Platform" package="R0402" value="10K, 1%" x="66.548" y="19.3802" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.04" y="18.2626" size="0.8128" layer="25" rot="R90" align="center-right"/>
-<attribute name="VALUE" x="66.9544" y="19.3802" size="0.254" layer="27" rot="R90" align="top-center"/>
-</element>
 <element name="RTC1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" package="SO08" package3d_urn="urn:adsk.eagle:package:37530/1" value="DS3231MZ+" x="66.929" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.929" y="74.0918" size="1.016" layer="25" ratio="10" align="bottom-center"/>
 <attribute name="PROD_ID" value="IC-11985" x="87.1982" y="71.12" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5713,8 +5615,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="J24" library="OSD3358-SM-RED Platform" package="H3-2.54" value="6p-2.54" x="98.425" y="104.14" smashed="yes">
 <attribute name="MPN" value="P125-1106A1BS116A1" x="98.425" y="104.14" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="98.425" y="100.1014" size="0.889" layer="25" ratio="10" align="top-center"/>
 <attribute name="NAME" x="99.06" y="101.6" size="0.635" layer="33" ratio="10" rot="R90"/>
+<attribute name="NAME" x="98.425" y="100.1014" size="0.889" layer="25" ratio="10" align="top-center"/>
 <attribute name="VALUE" x="98.425" y="102.87" size="0.254" layer="27" align="center"/>
 </element>
 </elements>
