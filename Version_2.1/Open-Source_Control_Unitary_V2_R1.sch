@@ -25856,7 +25856,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="VREG2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="78XXL" device="" package3d_urn="urn:adsk.eagle:package:30361/1" value="L7824CV"/>
 <part name="GND125" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND126" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
-<part name="R168" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K, 1%"/>
+<part name="R168" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="D19" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
 <part name="GND128" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="U$7" library="OSD3358-SM-RED Platform" deviceset="24VDC_AUX" device=""/>
@@ -25981,11 +25981,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D33" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
 <part name="D34" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
 <part name="D35" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
-<part name="R173" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K, 1%"/>
-<part name="R174" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K, 1%"/>
-<part name="R175" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K, 1%"/>
-<part name="R172" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K, 1%"/>
-<part name="R171" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K, 1%"/>
+<part name="R173" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
+<part name="R174" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
+<part name="R175" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
+<part name="R172" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
+<part name="R171" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="GND39" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="U$8" library="OSD3358-SM-RED Platform" deviceset="24VDC_AUX" device=""/>
 <part name="SUPPLY131" library="OSD3358-SM-RED Platform" deviceset="SYS_VDD3_3P3V" device=""/>
@@ -26044,8 +26044,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="X3" library="con-phoenix-381_l" deviceset="MC4" device=""/>
 <part name="D2" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KFKT" device="LED_EIA-STD" value="LTST-C191KFKT"/>
 <part name="D8" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
-<part name="R1" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1.5K, 1%"/>
-<part name="R2" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1.5K, 1%"/>
+<part name="R1" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1K"/>
+<part name="R2" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1K"/>
 <part name="GND1" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND2" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="FRAME17" library="OSD3358-SM-RED Platform" deviceset="FRAMES_A3L-LOC" device=""/>
@@ -28220,9 +28220,9 @@ for your application.</text>
 <attribute name="NAME" x="939.8" y="782.32" size="1.778" layer="95"/>
 <attribute name="VALUE" x="939.8" y="779.78" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="899.16" y="660.4" smashed="yes">
-<attribute name="NAME" x="891.54" y="657.86" size="1.778" layer="95"/>
-<attribute name="VALUE" x="883.92" y="655.32" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="904.24" y="662.94" smashed="yes">
+<attribute name="NAME" x="896.62" y="660.4" size="1.778" layer="95"/>
+<attribute name="VALUE" x="889" y="657.86" size="1.778" layer="96"/>
 </instance>
 <instance part="R303" gate="G$1" x="962.66" y="812.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="955.04" y="811.7586" size="1.778" layer="95"/>
