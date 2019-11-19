@@ -7477,8 +7477,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="42.164" y="4.445"/>
 <vertex x="41.91" y="4.699"/>
 <vertex x="41.91" y="5.08"/>
-<vertex x="39.37" y="7.62"/>
-<vertex x="32.9946" y="7.62"/>
+<vertex x="39.2684" y="7.7216"/>
+<vertex x="33.0962" y="7.7216"/>
 <vertex x="30.48" y="5.1054"/>
 <vertex x="30.48" y="4.699"/>
 <vertex x="30.226" y="4.445"/>
@@ -7561,9 +7561,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="28.956" y1="56.388" x2="5.207" y2="56.388" width="0.1524" layer="1"/>
 <via x="4.064" y="55.245" extent="1-16" drill="0.3048"/>
 <wire x1="5.207" y1="56.388" x2="4.064" y2="55.245" width="0.1524" layer="1"/>
-<wire x1="4.064" y1="55.245" x2="4.064" y2="3.81" width="0.1524" layer="16"/>
-<wire x1="4.064" y1="3.81" x2="5.334" y2="2.54" width="0.1524" layer="16"/>
-<wire x1="5.334" y1="2.54" x2="29.718" y2="2.54" width="0.1524" layer="16"/>
+<wire x1="4.064" y1="55.245" x2="4.064" y2="4.0894" width="0.1524" layer="16"/>
+<wire x1="4.064" y1="4.0894" x2="5.6134" y2="2.54" width="0.1524" layer="16"/>
+<wire x1="5.6134" y1="2.54" x2="29.718" y2="2.54" width="0.1524" layer="16"/>
 <wire x1="34.036" y1="6.858" x2="38.354" y2="6.858" width="0.1524" layer="16"/>
 <wire x1="38.354" y1="6.858" x2="42.672" y2="2.54" width="0.1524" layer="16"/>
 <wire x1="29.718" y1="2.54" x2="34.036" y2="6.858" width="0.1524" layer="16"/>
@@ -8441,8 +8441,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="33.02" y="5.08"/>
 <vertex x="33.02" y="1.27"/>
 <vertex x="32.385" y="0.635"/>
-<vertex x="6.35" y="0.635"/>
-<vertex x="5.715" y="1.27"/>
+<vertex x="6.5278" y="0.635"/>
+<vertex x="3.048" y="4.3688"/>
+<vertex x="3.048" y="55.245"/>
+<vertex x="3.683" y="55.88"/>
+<vertex x="5.08" y="55.88"/>
+<vertex x="5.715" y="56.515"/>
 </polygon>
 <polygon width="0.254" layer="1">
 <vertex x="-5.08" y="57.15"/>
