@@ -25883,7 +25883,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R169" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1.5K, 1%"/>
 <part name="R170" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1.5K, 1%"/>
 <part name="GND159" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
-<part name="J17" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="J3" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
 <part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="JS-M1*" device="" package3d_urn="urn:adsk.eagle:package:24452/1" technology="-12V-5" value="JS1-24V-F"/>
 <part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="JS-M1*" device="" package3d_urn="urn:adsk.eagle:package:24452/1" technology="-12V-5" value="JS1-24V-F"/>
 <part name="K3" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="JS-M1*" device="" package3d_urn="urn:adsk.eagle:package:24452/1" technology="-12V-5" value="JS1-24V-F"/>
@@ -26022,6 +26022,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY27" library="OSD3358-SM-RED Platform" deviceset="AGND" device=""/>
 <part name="SUPPLY28" library="OSD3358-SM-RED Platform" deviceset="AGND" device=""/>
 <part name="SUPPLY29" library="OSD3358-SM-RED Platform" deviceset="SYS_ADC_1P8V" device=""/>
+<part name="J4" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="J5" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="J6" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="GND24" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
+<part name="GND30" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
+<part name="GND31" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27680,9 +27686,9 @@ for your application.</text>
 <instance part="GND159" gate="1" x="513.08" y="467.36" smashed="yes">
 <attribute name="VALUE" x="510.54" y="464.82" size="1.778" layer="96"/>
 </instance>
-<instance part="J17" gate="G$1" x="528.32" y="477.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="528.32" y="469.9" size="1.778" layer="95" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="528.32" y="480.06" size="1.778" layer="96" ratio="10" rot="R180"/>
+<instance part="J3" gate="G$1" x="525.78" y="469.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="525.78" y="477.52" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="525.78" y="467.36" size="1.778" layer="96" ratio="10" rot="MR0"/>
 </instance>
 <instance part="K1" gate="1" x="962.66" y="1130.3" smashed="yes">
 <attribute name="VALUE" x="963.93" y="1133.221" size="1.778" layer="96"/>
@@ -28234,6 +28240,27 @@ for your application.</text>
 </instance>
 <instance part="SUPPLY29" gate="G$1" x="762" y="1000.76" smashed="yes">
 <attribute name="VALUE" x="762" y="1004.824" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="J4" gate="G$1" x="1094.74" y="802.64" smashed="yes" rot="MR0">
+<attribute name="NAME" x="1094.74" y="810.26" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="1094.74" y="800.1" size="1.778" layer="96" ratio="10" rot="MR0"/>
+</instance>
+<instance part="J5" gate="G$1" x="1094.74" y="784.86" smashed="yes" rot="MR0">
+<attribute name="NAME" x="1094.74" y="792.48" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="1094.74" y="782.32" size="1.778" layer="96" ratio="10" rot="MR0"/>
+</instance>
+<instance part="J6" gate="G$1" x="1094.74" y="767.08" smashed="yes" rot="MR0">
+<attribute name="NAME" x="1094.74" y="774.7" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="1094.74" y="764.54" size="1.778" layer="96" ratio="10" rot="MR0"/>
+</instance>
+<instance part="GND24" gate="1" x="1082.04" y="800.1" smashed="yes">
+<attribute name="VALUE" x="1079.5" y="797.56" size="1.778" layer="96"/>
+</instance>
+<instance part="GND30" gate="1" x="1082.04" y="782.32" smashed="yes">
+<attribute name="VALUE" x="1079.5" y="779.78" size="1.778" layer="96"/>
+</instance>
+<instance part="GND31" gate="1" x="1082.04" y="764.54" smashed="yes">
+<attribute name="VALUE" x="1079.5" y="762" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -29167,8 +29194,8 @@ for your application.</text>
 <segment>
 <pinref part="GND159" gate="1" pin="GND"/>
 <wire x1="513.08" y1="472.44" x2="513.08" y2="469.9" width="0.1524" layer="91"/>
-<pinref part="J17" gate="G$1" pin="1"/>
-<wire x1="518.16" y1="472.44" x2="513.08" y2="472.44" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="515.62" y1="472.44" x2="513.08" y2="472.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
@@ -29378,6 +29405,24 @@ for your application.</text>
 <wire x1="335.28" y1="1016" x2="325.12" y2="1016" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="325.12" y1="1016" x2="325.12" y2="1005.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="1084.58" y1="805.18" x2="1082.04" y2="805.18" width="0.1524" layer="91"/>
+<wire x1="1082.04" y1="805.18" x2="1082.04" y2="802.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="1084.58" y1="787.4" x2="1082.04" y2="787.4" width="0.1524" layer="91"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="1082.04" y1="787.4" x2="1082.04" y2="784.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="1084.58" y1="769.62" x2="1082.04" y2="769.62" width="0.1524" layer="91"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="1082.04" y1="769.62" x2="1082.04" y2="767.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWR_BUT" class="0">
@@ -29696,12 +29741,22 @@ for your application.</text>
 <wire x1="975.36" y1="71.12" x2="1031.24" y2="71.12" width="0.1524" layer="91"/>
 <label x="1018.54" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="1084.58" y1="772.16" x2="1064.26" y2="772.16" width="0.1524" layer="91"/>
+<label x="1064.26" y="772.16" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EHRPWM2A" class="0">
 <segment>
 <pinref part="U1" gate="C" pin="GPMC_AD8"/>
 <wire x1="975.36" y1="73.66" x2="1031.24" y2="73.66" width="0.1524" layer="91"/>
 <label x="1018.54" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="1084.58" y1="789.94" x2="1064.26" y2="789.94" width="0.1524" layer="91"/>
+<label x="1064.26" y="789.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EHRPWM1B" class="0">
@@ -29716,6 +29771,11 @@ for your application.</text>
 <pinref part="U1" gate="C" pin="GPMC_A2"/>
 <wire x1="975.36" y1="124.46" x2="1031.24" y2="124.46" width="0.1524" layer="91"/>
 <label x="1018.54" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="G$1" pin="1"/>
+<wire x1="1084.58" y1="807.72" x2="1064.26" y2="807.72" width="0.1524" layer="91"/>
+<label x="1064.26" y="807.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MMC0_DAT3" class="0">
@@ -33382,8 +33442,8 @@ for your application.</text>
 <wire x1="513.08" y1="474.98" x2="513.08" y2="482.6" width="0.1524" layer="91"/>
 <wire x1="513.08" y1="482.6" x2="480.06" y2="482.6" width="0.1524" layer="91"/>
 <pinref part="R69" gate="G$1" pin="2"/>
-<pinref part="J17" gate="G$1" pin="2"/>
-<wire x1="518.16" y1="474.98" x2="513.08" y2="474.98" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="515.62" y1="474.98" x2="513.08" y2="474.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BO1_NO" class="0">
