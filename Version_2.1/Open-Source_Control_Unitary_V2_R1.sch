@@ -26028,6 +26028,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND24" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND30" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND31" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
+<part name="TP17" library="OSD3358-SM-RED Platform" deviceset="TESTPAD/W_HOLE_1X1" device=""/>
+<part name="TP18" library="OSD3358-SM-RED Platform" deviceset="TESTPAD/W_HOLE_1X1" device=""/>
+<part name="TP19" library="OSD3358-SM-RED Platform" deviceset="TESTPAD/W_HOLE_1X1" device=""/>
+<part name="TP20" library="OSD3358-SM-RED Platform" deviceset="TESTPAD/W_HOLE_1X1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26229,6 +26233,8 @@ for your application.</text>
 </text>
 <text x="96.52" y="1026.16" size="2.54" layer="150" align="center-left">VDC
 </text>
+<text x="10.16" y="104.14" size="2.54" layer="150">AT97SC3205T I2C Address:  0x29</text>
+<text x="797.56" y="127" size="2.54" layer="150">DS3231 I2C Address:  0x68</text>
 </plain>
 <instances>
 <instance part="SUPPLY19" gate="G$1" x="335.28" y="1089.66" smashed="yes">
@@ -27886,8 +27892,8 @@ for your application.</text>
 <attribute name="VALUE" x="71.12" y="55.88" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R11" gate="G$1" x="53.34" y="83.82" smashed="yes">
-<attribute name="NAME" x="48.26" y="86.36" size="1.778" layer="95"/>
-<attribute name="VALUE" x="55.88" y="86.36" size="1.778" layer="96"/>
+<attribute name="NAME" x="45.72" y="81.28" size="1.778" layer="95"/>
+<attribute name="VALUE" x="55.88" y="81.28" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="121.92" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="116.84" y="68.58" size="1.778" layer="95"/>
@@ -28261,6 +28267,18 @@ for your application.</text>
 </instance>
 <instance part="GND31" gate="1" x="1082.04" y="764.54" smashed="yes">
 <attribute name="VALUE" x="1079.5" y="762" size="1.778" layer="96"/>
+</instance>
+<instance part="TP17" gate="G$1" x="60.96" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="53.34" y="88.9" size="1.778" layer="95"/>
+</instance>
+<instance part="TP18" gate="G$1" x="60.96" y="96.52" smashed="yes" rot="R180">
+<attribute name="NAME" x="53.34" y="99.06" size="1.778" layer="95"/>
+</instance>
+<instance part="TP19" gate="G$1" x="858.52" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="845.82" y="129.54" size="1.778" layer="95"/>
+</instance>
+<instance part="TP20" gate="G$1" x="858.52" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="845.82" y="127" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -29424,6 +29442,20 @@ for your application.</text>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="1082.04" y1="769.62" x2="1082.04" y2="767.08" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="RTC1" gate="G$1" pin="GND"/>
+<pinref part="GND157" gate="1" pin="GND"/>
+<wire x1="919.48" y1="477.52" x2="922.02" y2="477.52" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="477.52" x2="922.02" y2="469.9" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="469.9" x2="868.68" y2="469.9" width="0.1524" layer="91"/>
+<junction x="922.02" y="469.9"/>
+<label x="868.68" y="469.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="B" pin="OSC1_GND"/>
+<wire x1="553.72" y1="167.64" x2="530.86" y2="167.64" width="0.1524" layer="91"/>
+<label x="530.86" y="167.64" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWR_BUT" class="0">
 <segment>
@@ -29457,6 +29489,7 @@ for your application.</text>
 <wire x1="78.74" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="99.06" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
 <junction x="78.74" y="96.52"/>
+<pinref part="TP18" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="I2C0_SDA" class="0">
@@ -29478,6 +29511,7 @@ for your application.</text>
 <wire x1="88.9" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="99.06" x2="88.9" y2="86.36" width="0.1524" layer="91"/>
 <junction x="88.9" y="86.36"/>
+<pinref part="TP17" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="BAT_SENSE" class="0">
@@ -29576,22 +29610,6 @@ for your application.</text>
 <pinref part="U1" gate="B" pin="OSC1_OUT"/>
 <wire x1="553.72" y1="172.72" x2="530.86" y2="172.72" width="0.1524" layer="91"/>
 <label x="530.86" y="172.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="OSC1_GND" class="0">
-<segment>
-<pinref part="RTC1" gate="G$1" pin="GND"/>
-<pinref part="GND157" gate="1" pin="GND"/>
-<wire x1="919.48" y1="477.52" x2="922.02" y2="477.52" width="0.1524" layer="91"/>
-<wire x1="922.02" y1="477.52" x2="922.02" y2="469.9" width="0.1524" layer="91"/>
-<wire x1="922.02" y1="469.9" x2="868.68" y2="469.9" width="0.1524" layer="91"/>
-<junction x="922.02" y="469.9"/>
-<label x="868.68" y="469.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U1" gate="B" pin="OSC1_GND"/>
-<wire x1="553.72" y1="167.64" x2="530.86" y2="167.64" width="0.1524" layer="91"/>
-<label x="530.86" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JTAG_EMU1" class="0">
@@ -30465,6 +30483,7 @@ for your application.</text>
 <pinref part="U1" gate="C" pin="UART0_CTSN"/>
 <wire x1="914.4" y1="129.54" x2="861.06" y2="129.54" width="0.1524" layer="91"/>
 <label x="861.06" y="129.54" size="1.778" layer="95"/>
+<pinref part="TP19" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="RTC1" gate="G$1" pin="SDA"/>
@@ -33775,6 +33794,7 @@ for your application.</text>
 <pinref part="U1" gate="C" pin="UART0_RTSN"/>
 <wire x1="914.4" y1="127" x2="861.06" y2="127" width="0.1524" layer="91"/>
 <label x="861.06" y="127" size="1.778" layer="95"/>
+<pinref part="TP20" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="RTC1" gate="G$1" pin="SCL"/>
