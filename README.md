@@ -8,11 +8,11 @@ This device will be suitable for control of automated and networked building equ
 6 input, 5 relay output controller board using OSD3358-512M-ICB (C-SiP). Changed to C-SiP due to advantages of a fully encapsulated EMMC and main oscillator in an industrial temperature rated package.
 
 -Unitary Controller Version 2.1-
-Revised device based on lessons learned from first prototype (2.0). Revisions in progress
+Revised device based on lessons learned from first prototype (2.0). Prototype in fabrication. Testing in Jan 2020
 
 Project Status:
 1) Version 1.0 will not be built or tested and has been superseded by Version 2.0.
-2) Prototype Version 2.0 has been built. Revisions will be incorperated into 2.1 (future)
+2) Prototype Version 2.0 has been built. Revisions will be incorperated into 2.1.
 3) Version 2.0 in testing. EEPROM programmed to BBB. Device boots Debian images correctly. Main communication interfaces 
 (USB, Serial, Ethernet) seem to work correctly.
 4) There is an error in the I2C bus connected to the RTC caused by renaming to I2C1 which caused the SCL trace to become disconnected. Flaw cannot be reworked as it is under the SiP package. To be fixed in 2.1
@@ -21,4 +21,5 @@ Project Status:
 7) User config switches (rotary and dip switches) work correctly. Note: Chip Select CS0 must be set high for the HC165.
 8) Battery charger / Battery Backup seems to work correctly.
 9) Analog Front End seems to work correctly.
+10) Prototype version 2.1 now in fabrication.
 
