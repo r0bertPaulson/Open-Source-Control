@@ -21,5 +21,5 @@ Project Status:
 7) User config switches (rotary and dip switches) work correctly. Note: Chip Select CS0 must be set high for the HC165.
 8) Battery charger / Battery Backup seems to work correctly.
 9) Analog Front End seems to work correctly.
-10) Prototype version 2.1 now in fabrication.
+10) Prototype version 2.1 now in testing.
 
