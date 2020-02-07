@@ -31409,23 +31409,6 @@ for your application.</text>
 <junction x="165.1" y="1033.78"/>
 </segment>
 </net>
-<net name="GPIO0_4" class="0">
-<segment>
-<pinref part="U1" gate="C" pin="SPI0_D1"/>
-<wire x1="914.4" y1="99.06" x2="861.06" y2="99.06" width="0.1524" layer="91"/>
-<label x="861.06" y="99.06" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U29" gate="A" pin="DE"/>
-<wire x1="878.84" y1="797.56" x2="873.76" y2="797.56" width="0.1524" layer="91"/>
-<pinref part="U29" gate="A" pin="!RE"/>
-<wire x1="873.76" y1="797.56" x2="810.26" y2="797.56" width="0.1524" layer="91"/>
-<wire x1="878.84" y1="800.1" x2="873.76" y2="800.1" width="0.1524" layer="91"/>
-<wire x1="873.76" y1="800.1" x2="873.76" y2="797.56" width="0.1524" layer="91"/>
-<junction x="873.76" y="797.56"/>
-<label x="810.26" y="797.56" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="1P8V_REF_2" class="0">
 <segment>
 <wire x1="647.7" y1="1003.3" x2="711.2" y2="1003.3" width="0.1524" layer="91"/>
@@ -31454,6 +31437,51 @@ for your application.</text>
 <wire x1="528.32" y1="1016" x2="528.32" y2="1018.54" width="0.1524" layer="91"/>
 <wire x1="528.32" y1="1018.54" x2="548.64" y2="1018.54" width="0.1524" layer="91"/>
 <label x="533.4" y="1018.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PR1_UART0_TXD" class="0">
+<segment>
+<pinref part="U1" gate="C" pin="SPI0_CS0"/>
+<wire x1="914.4" y1="96.52" x2="861.06" y2="96.52" width="0.1524" layer="91"/>
+<label x="861.06" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PR1_PRU0_PRU_R30_7" class="0">
+<segment>
+<pinref part="U1" gate="C" pin="MCASP0_AHCLKX"/>
+<wire x1="914.4" y1="48.26" x2="861.06" y2="48.26" width="0.1524" layer="91"/>
+<label x="861.06" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PR1_PRU0_PRU_R30_6" class="0">
+<segment>
+<pinref part="U1" gate="C" pin="MCASP0_AXR1"/>
+<wire x1="914.4" y1="50.8" x2="861.06" y2="50.8" width="0.1524" layer="91"/>
+<label x="861.06" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PR1_UART0_RXD" class="0">
+<segment>
+<pinref part="U1" gate="C" pin="SPI0_D1"/>
+<wire x1="914.4" y1="99.06" x2="861.06" y2="99.06" width="0.1524" layer="91"/>
+<label x="861.06" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO0_7" class="0">
+<segment>
+<pinref part="U1" gate="C" pin="ECAP0_IN_PWM0_OUT"/>
+<wire x1="914.4" y1="33.02" x2="861.06" y2="33.02" width="0.1524" layer="91"/>
+<label x="861.06" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U29" gate="A" pin="DE"/>
+<wire x1="878.84" y1="797.56" x2="873.76" y2="797.56" width="0.1524" layer="91"/>
+<pinref part="U29" gate="A" pin="!RE"/>
+<wire x1="873.76" y1="797.56" x2="810.26" y2="797.56" width="0.1524" layer="91"/>
+<wire x1="878.84" y1="800.1" x2="873.76" y2="800.1" width="0.1524" layer="91"/>
+<wire x1="873.76" y1="800.1" x2="873.76" y2="797.56" width="0.1524" layer="91"/>
+<junction x="873.76" y="797.56"/>
+<label x="810.26" y="797.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
