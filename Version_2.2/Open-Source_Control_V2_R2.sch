@@ -30917,8 +30917,8 @@ for your application.</text>
 <net name="GPIO0_18" class="0">
 <segment>
 <pinref part="U1" gate="B" pin="USB0_DRVVBUS"/>
-<wire x1="553.72" y1="119.38" x2="525.78" y2="119.38" width="0.1524" layer="91"/>
-<label x="525.78" y="119.38" size="1.778" layer="95"/>
+<wire x1="553.72" y1="119.38" x2="530.86" y2="119.38" width="0.1524" layer="91"/>
+<label x="530.86" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$70" class="0">
