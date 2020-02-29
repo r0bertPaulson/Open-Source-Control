@@ -23707,7 +23707,7 @@ for your application.</text>
 <text x="96.52" y="1026.16" size="2.54" layer="150" align="center-left">VDC
 </text>
 <text x="10.16" y="104.14" size="2.54" layer="150">AT97SC3205T I2C Address:  0x29</text>
-<text x="797.56" y="127" size="2.54" layer="150">DS3231 I2C Address:  0x68</text>
+<text x="797.56" y="111.76" size="2.54" layer="150">DS3231 I2C Address:  0x68</text>
 <text x="760.73" y="1224.28" size="2.54" layer="94">2</text>
 <text x="369.57" y="1224.28" size="2.54" layer="94">2</text>
 <text x="369.57" y="919.48" size="2.54" layer="94">2</text>
@@ -23839,11 +23839,11 @@ for your application.</text>
 <instance part="GND17" gate="1" x="853.44" y="154.94" smashed="yes">
 <attribute name="VALUE" x="850.9" y="152.4" size="1.778" layer="96"/>
 </instance>
-<instance part="TP9" gate="G$1" x="858.52" y="114.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="845.82" y="114.3" size="1.778" layer="95"/>
+<instance part="TP9" gate="G$1" x="858.52" y="129.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="845.82" y="129.54" size="1.778" layer="95"/>
 </instance>
-<instance part="TP10" gate="G$1" x="858.52" y="111.76" smashed="yes" rot="R180">
-<attribute name="NAME" x="845.82" y="111.76" size="1.778" layer="95"/>
+<instance part="TP10" gate="G$1" x="858.52" y="127" smashed="yes" rot="R180">
+<attribute name="NAME" x="845.82" y="127" size="1.778" layer="95"/>
 </instance>
 <instance part="R31" gate="G$1" x="1099.82" y="195.58" smashed="yes">
 <attribute name="NAME" x="1092.2" y="195.58" size="1.778" layer="95"/>
@@ -25763,11 +25763,11 @@ for your application.</text>
 <instance part="TP18" gate="G$1" x="60.96" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.34" y="99.06" size="1.778" layer="95"/>
 </instance>
-<instance part="TP19" gate="G$1" x="858.52" y="129.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="845.82" y="129.54" size="1.778" layer="95"/>
+<instance part="TP19" gate="G$1" x="858.52" y="114.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="845.82" y="114.3" size="1.778" layer="95"/>
 </instance>
-<instance part="TP20" gate="G$1" x="858.52" y="127" smashed="yes" rot="R180">
-<attribute name="NAME" x="845.82" y="127" size="1.778" layer="95"/>
+<instance part="TP20" gate="G$1" x="858.52" y="111.76" smashed="yes" rot="R180">
+<attribute name="NAME" x="845.82" y="111.76" size="1.778" layer="95"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="784.86" y="1219.2" smashed="yes">
 <attribute name="DRAWING_NAME" x="1098.55" y="1234.44" size="2.54" layer="94"/>
@@ -27971,23 +27971,6 @@ for your application.</text>
 <label x="861.06" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="I2C1_SDA" class="0">
-<segment>
-<pinref part="U1" gate="C" pin="UART0_CTSN"/>
-<wire x1="914.4" y1="129.54" x2="861.06" y2="129.54" width="0.1524" layer="91"/>
-<label x="861.06" y="129.54" size="1.778" layer="95"/>
-<pinref part="TP19" gate="G$1" pin="TP"/>
-</segment>
-<segment>
-<pinref part="RTC1" gate="G$1" pin="SDA"/>
-<wire x1="919.48" y1="482.6" x2="929.64" y2="482.6" width="0.1524" layer="91"/>
-<label x="932.18" y="482.6" size="1.778" layer="95"/>
-<pinref part="R170" gate="G$1" pin="1"/>
-<wire x1="929.64" y1="482.6" x2="942.34" y2="482.6" width="0.1524" layer="91"/>
-<wire x1="929.64" y1="487.68" x2="929.64" y2="482.6" width="0.1524" layer="91"/>
-<junction x="929.64" y="482.6"/>
-</segment>
-</net>
 <net name="USB0_P" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="D+"/>
@@ -29696,10 +29679,10 @@ for your application.</text>
 <label x="952.5" y="391.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="C" pin="UART1_CTSN"/>
-<wire x1="914.4" y1="114.3" x2="861.06" y2="114.3" width="0.1524" layer="91"/>
-<label x="861.06" y="114.3" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="UART0_CTSN"/>
 <pinref part="TP9" gate="G$1" pin="TP"/>
+<wire x1="914.4" y1="129.54" x2="861.06" y2="129.54" width="0.1524" layer="91"/>
+<label x="861.06" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TPM_GPIO0" class="0">
@@ -29721,10 +29704,10 @@ for your application.</text>
 <label x="952.5" y="375.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="C" pin="UART1_RTSN"/>
-<wire x1="914.4" y1="111.76" x2="861.06" y2="111.76" width="0.1524" layer="91"/>
-<label x="861.06" y="111.76" size="1.778" layer="95"/>
+<pinref part="U1" gate="C" pin="UART0_RTSN"/>
 <pinref part="TP10" gate="G$1" pin="TP"/>
+<wire x1="914.4" y1="127" x2="861.06" y2="127" width="0.1524" layer="91"/>
+<label x="861.06" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -31282,23 +31265,6 @@ for your application.</text>
 <label x="157.48" y="424.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="I2C1_SCL" class="0">
-<segment>
-<pinref part="U1" gate="C" pin="UART0_RTSN"/>
-<wire x1="914.4" y1="127" x2="861.06" y2="127" width="0.1524" layer="91"/>
-<label x="861.06" y="127" size="1.778" layer="95"/>
-<pinref part="TP20" gate="G$1" pin="TP"/>
-</segment>
-<segment>
-<pinref part="RTC1" gate="G$1" pin="SCL"/>
-<wire x1="919.48" y1="485.14" x2="922.02" y2="485.14" width="0.1524" layer="91"/>
-<label x="932.18" y="485.14" size="1.778" layer="95"/>
-<pinref part="R169" gate="G$1" pin="1"/>
-<wire x1="922.02" y1="485.14" x2="942.34" y2="485.14" width="0.1524" layer="91"/>
-<wire x1="922.02" y1="487.68" x2="922.02" y2="485.14" width="0.1524" layer="91"/>
-<junction x="922.02" y="485.14"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="GRNC"/>
@@ -31482,6 +31448,40 @@ for your application.</text>
 <wire x1="873.76" y1="800.1" x2="873.76" y2="797.56" width="0.1524" layer="91"/>
 <junction x="873.76" y="797.56"/>
 <label x="810.26" y="797.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C2_SCL" class="0">
+<segment>
+<pinref part="RTC1" gate="G$1" pin="SCL"/>
+<wire x1="919.48" y1="485.14" x2="922.02" y2="485.14" width="0.1524" layer="91"/>
+<label x="932.18" y="485.14" size="1.778" layer="95"/>
+<pinref part="R169" gate="G$1" pin="1"/>
+<wire x1="922.02" y1="485.14" x2="942.34" y2="485.14" width="0.1524" layer="91"/>
+<wire x1="922.02" y1="487.68" x2="922.02" y2="485.14" width="0.1524" layer="91"/>
+<junction x="922.02" y="485.14"/>
+</segment>
+<segment>
+<pinref part="U1" gate="C" pin="UART1_RTSN"/>
+<pinref part="TP20" gate="G$1" pin="TP"/>
+<wire x1="914.4" y1="111.76" x2="861.06" y2="111.76" width="0.1524" layer="91"/>
+<label x="861.06" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="I2C2_SDA" class="0">
+<segment>
+<pinref part="RTC1" gate="G$1" pin="SDA"/>
+<wire x1="919.48" y1="482.6" x2="929.64" y2="482.6" width="0.1524" layer="91"/>
+<label x="932.18" y="482.6" size="1.778" layer="95"/>
+<pinref part="R170" gate="G$1" pin="1"/>
+<wire x1="929.64" y1="482.6" x2="942.34" y2="482.6" width="0.1524" layer="91"/>
+<wire x1="929.64" y1="487.68" x2="929.64" y2="482.6" width="0.1524" layer="91"/>
+<junction x="929.64" y="482.6"/>
+</segment>
+<segment>
+<pinref part="U1" gate="C" pin="UART1_CTSN"/>
+<pinref part="TP19" gate="G$1" pin="TP"/>
+<wire x1="914.4" y1="114.3" x2="861.06" y2="114.3" width="0.1524" layer="91"/>
+<label x="861.06" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
