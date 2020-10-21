@@ -23505,6 +23505,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP19" library="OSD3358-SM-RED Platform" deviceset="TESTPAD/W_HOLE_1X1" device=""/>
 <part name="TP20" library="OSD3358-SM-RED Platform" deviceset="TESTPAD/W_HOLE_1X1" device=""/>
 <part name="FRAME2" library="OSD3358-SM-RED Platform" deviceset="FRAMES_GEN" device=""/>
+<part name="J7" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="J8" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="J9" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25772,6 +25775,18 @@ for your application.</text>
 <instance part="FRAME2" gate="G$1" x="784.86" y="1219.2" smashed="yes">
 <attribute name="DRAWING_NAME" x="1098.55" y="1234.44" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="1098.55" y="1229.36" size="2.286" layer="94"/>
+</instance>
+<instance part="J7" gate="G$1" x="365.76" y="726.44" smashed="yes" rot="MR0">
+<attribute name="NAME" x="365.76" y="734.06" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="365.76" y="723.9" size="1.778" layer="96" ratio="10" rot="MR0"/>
+</instance>
+<instance part="J8" gate="G$1" x="365.76" y="713.74" smashed="yes" rot="MR0">
+<attribute name="NAME" x="365.76" y="721.36" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="365.76" y="711.2" size="1.778" layer="96" ratio="10" rot="MR0"/>
+</instance>
+<instance part="J9" gate="G$1" x="365.76" y="701.04" smashed="yes" rot="MR0">
+<attribute name="NAME" x="365.76" y="708.66" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="365.76" y="698.5" size="1.778" layer="96" ratio="10" rot="MR0"/>
 </instance>
 </instances>
 <busses>
