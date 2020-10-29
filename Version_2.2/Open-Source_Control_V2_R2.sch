@@ -23505,9 +23505,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP19" library="OSD3358-SM-RED Platform" deviceset="TESTPAD/W_HOLE_1X1" device=""/>
 <part name="TP20" library="OSD3358-SM-RED Platform" deviceset="TESTPAD/W_HOLE_1X1" device=""/>
 <part name="FRAME2" library="OSD3358-SM-RED Platform" deviceset="FRAMES_GEN" device=""/>
-<part name="J7" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
-<part name="J8" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
-<part name="J9" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="J454" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="J45" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="J450" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23729,6 +23729,9 @@ for your application.</text>
 <text x="1154.43" y="1224.28" size="2.54" layer="94">2</text>
 <text x="815.34" y="1427.48" size="2.54" layer="150">Rev 1:  
     1)  Revised Prototype.</text>
+<text x="342.9" y="685.8" size="2.54" layer="150">Use Jumpers to connect
+RS-485 to UART4 or
+PRU1 UART0</text>
 </plain>
 <instances>
 <instance part="SUPPLY19" gate="G$1" x="335.28" y="1089.66" smashed="yes">
@@ -25573,14 +25576,14 @@ for your application.</text>
 <attribute name="NAME" x="469.9" y="322.58" size="1.778" layer="95" align="top-right"/>
 <attribute name="VALUE" x="485.14" y="322.58" size="1.778" layer="96" align="top-right"/>
 </instance>
-<instance part="X8" gate=".1" x="998.22" y="683.26" smashed="yes" rot="MR0">
+<instance part="X8" gate=".1" x="335.28" y="1016" smashed="yes" rot="MR0">
+<attribute name="NAME" x="342.9" y="1017.905" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="X8" gate=".2" x="998.22" y="683.26" smashed="yes" rot="MR0">
 <attribute name="NAME" x="1005.84" y="685.165" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="X8" gate=".2" x="998.22" y="693.42" smashed="yes" rot="MR0">
+<instance part="X8" gate=".3" x="998.22" y="693.42" smashed="yes" rot="MR0">
 <attribute name="NAME" x="1005.84" y="695.325" size="1.524" layer="95" rot="MR0"/>
-</instance>
-<instance part="X8" gate=".3" x="335.28" y="1016" smashed="yes" rot="MR0">
-<attribute name="NAME" x="342.9" y="1017.905" size="1.524" layer="95" rot="MR0"/>
 </instance>
 <instance part="X8" gate=".4" x="335.28" y="1021.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="342.9" y="1022.985" size="1.524" layer="95" rot="MR0"/>
@@ -25776,17 +25779,17 @@ for your application.</text>
 <attribute name="DRAWING_NAME" x="1098.55" y="1234.44" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="1098.55" y="1229.36" size="2.286" layer="94"/>
 </instance>
-<instance part="J7" gate="G$1" x="365.76" y="726.44" smashed="yes" rot="MR0">
-<attribute name="NAME" x="365.76" y="734.06" size="1.778" layer="95" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="365.76" y="723.9" size="1.778" layer="96" ratio="10" rot="MR0"/>
+<instance part="J454" gate="G$1" x="347.98" y="721.36" smashed="yes">
+<attribute name="NAME" x="347.98" y="728.98" size="1.778" layer="95" ratio="10"/>
+<attribute name="VALUE" x="347.98" y="718.82" size="1.778" layer="96" ratio="10"/>
 </instance>
-<instance part="J8" gate="G$1" x="365.76" y="713.74" smashed="yes" rot="MR0">
-<attribute name="NAME" x="365.76" y="721.36" size="1.778" layer="95" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="365.76" y="711.2" size="1.778" layer="96" ratio="10" rot="MR0"/>
+<instance part="J45" gate="G$1" x="353.06" y="711.2" smashed="yes" rot="MR0">
+<attribute name="NAME" x="353.06" y="718.82" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="353.06" y="708.66" size="1.778" layer="96" ratio="10" rot="MR0"/>
 </instance>
-<instance part="J9" gate="G$1" x="365.76" y="701.04" smashed="yes" rot="MR0">
-<attribute name="NAME" x="365.76" y="708.66" size="1.778" layer="95" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="365.76" y="698.5" size="1.778" layer="96" ratio="10" rot="MR0"/>
+<instance part="J450" gate="G$1" x="347.98" y="701.04" smashed="yes">
+<attribute name="NAME" x="347.98" y="708.66" size="1.778" layer="95" ratio="10"/>
+<attribute name="VALUE" x="347.98" y="698.5" size="1.778" layer="96" ratio="10"/>
 </instance>
 </instances>
 <busses>
@@ -26927,10 +26930,10 @@ for your application.</text>
 <wire x1="985.52" y1="662.94" x2="985.52" y2="660.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X8" gate=".3" pin="SK"/>
-<wire x1="335.28" y1="1016" x2="325.12" y2="1016" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <wire x1="325.12" y1="1016" x2="325.12" y2="1005.84" width="0.1524" layer="91"/>
+<pinref part="X8" gate=".1" pin="SK"/>
+<wire x1="325.12" y1="1016" x2="335.28" y2="1016" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
@@ -27478,13 +27481,9 @@ for your application.</text>
 <label x="1018.54" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U40" gate="A" pin="R"/>
-<wire x1="259.08" y1="718.82" x2="320.04" y2="718.82" width="0.1524" layer="91"/>
-<label x="330.2" y="718.82" size="1.778" layer="95"/>
-<pinref part="D402" gate="G$1" pin="A"/>
-<wire x1="320.04" y1="718.82" x2="342.9" y2="718.82" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="708.66" x2="320.04" y2="718.82" width="0.1524" layer="91"/>
-<junction x="320.04" y="718.82"/>
+<pinref part="J454" gate="G$1" pin="1"/>
+<wire x1="358.14" y1="726.44" x2="381" y2="726.44" width="0.1524" layer="91"/>
+<label x="365.76" y="726.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART4_TXD" class="0">
@@ -27494,13 +27493,9 @@ for your application.</text>
 <label x="1018.54" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U40" gate="A" pin="D"/>
-<wire x1="259.08" y1="711.2" x2="294.64" y2="711.2" width="0.1524" layer="91"/>
-<label x="330.2" y="711.2" size="1.778" layer="95"/>
-<pinref part="D401" gate="G$1" pin="A"/>
-<wire x1="294.64" y1="711.2" x2="342.9" y2="711.2" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="708.66" x2="294.64" y2="711.2" width="0.1524" layer="91"/>
-<junction x="294.64" y="711.2"/>
+<pinref part="J454" gate="G$1" pin="2"/>
+<wire x1="358.14" y1="723.9" x2="381" y2="723.9" width="0.1524" layer="91"/>
+<label x="365.76" y="723.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1_28" class="0">
@@ -27508,11 +27503,6 @@ for your application.</text>
 <pinref part="U1" gate="C" pin="GPMC_BEN1"/>
 <wire x1="975.36" y1="96.52" x2="1031.24" y2="96.52" width="0.1524" layer="91"/>
 <label x="1018.54" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U40" gate="A" pin="!RE"/>
-<wire x1="259.08" y1="716.28" x2="342.9" y2="716.28" width="0.1524" layer="91"/>
-<label x="330.2" y="716.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1_12" class="0">
@@ -27564,11 +27554,6 @@ for your application.</text>
 </segment>
 </net>
 <net name="GPIO1_16" class="0">
-<segment>
-<pinref part="U40" gate="A" pin="DE"/>
-<label x="330.2" y="713.74" size="1.778" layer="95"/>
-<wire x1="259.08" y1="713.74" x2="342.9" y2="713.74" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="U1" gate="C" pin="GPMC_CSN3"/>
 <wire x1="975.36" y1="81.28" x2="1031.24" y2="81.28" width="0.1524" layer="91"/>
@@ -30721,8 +30706,8 @@ for your application.</text>
 <label x="967.74" y="693.42" size="1.778" layer="95"/>
 <pinref part="D805" gate="G$1" pin="2"/>
 <wire x1="980.44" y1="680.72" x2="980.44" y2="693.42" width="0.1524" layer="91"/>
-<pinref part="X8" gate=".2" pin="SK"/>
-<wire x1="998.22" y1="693.42" x2="980.44" y2="693.42" width="0.1524" layer="91"/>
+<pinref part="X8" gate=".3" pin="SK"/>
+<wire x1="980.44" y1="693.42" x2="998.22" y2="693.42" width="0.1524" layer="91"/>
 <junction x="980.44" y="693.42"/>
 </segment>
 </net>
@@ -30733,8 +30718,8 @@ for your application.</text>
 <label x="967.74" y="683.26" size="1.778" layer="95"/>
 <pinref part="D805" gate="G$1" pin="1"/>
 <wire x1="990.6" y1="680.72" x2="990.6" y2="683.26" width="0.1524" layer="91"/>
-<pinref part="X8" gate=".1" pin="SK"/>
-<wire x1="998.22" y1="683.26" x2="990.6" y2="683.26" width="0.1524" layer="91"/>
+<pinref part="X8" gate=".2" pin="SK"/>
+<wire x1="990.6" y1="683.26" x2="998.22" y2="683.26" width="0.1524" layer="91"/>
 <junction x="990.6" y="683.26"/>
 </segment>
 </net>
@@ -31426,12 +31411,22 @@ for your application.</text>
 <wire x1="914.4" y1="96.52" x2="861.06" y2="96.52" width="0.1524" layer="91"/>
 <label x="861.06" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J450" gate="G$1" pin="2"/>
+<wire x1="358.14" y1="703.58" x2="381" y2="703.58" width="0.1524" layer="91"/>
+<label x="360.68" y="703.58" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PR1_PRU0_PRU_R30_7" class="0">
 <segment>
 <pinref part="U1" gate="C" pin="MCASP0_AHCLKX"/>
 <wire x1="914.4" y1="48.26" x2="861.06" y2="48.26" width="0.1524" layer="91"/>
 <label x="861.06" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U40" gate="A" pin="DE"/>
+<wire x1="259.08" y1="713.74" x2="314.96" y2="713.74" width="0.1524" layer="91"/>
+<label x="287.02" y="713.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PR1_PRU0_PRU_R30_6" class="0">
@@ -31440,12 +31435,22 @@ for your application.</text>
 <wire x1="914.4" y1="50.8" x2="861.06" y2="50.8" width="0.1524" layer="91"/>
 <label x="861.06" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U40" gate="A" pin="!RE"/>
+<wire x1="259.08" y1="716.28" x2="314.96" y2="716.28" width="0.1524" layer="91"/>
+<label x="287.02" y="716.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PR1_UART0_RXD" class="0">
 <segment>
 <pinref part="U1" gate="C" pin="SPI0_D1"/>
 <wire x1="914.4" y1="99.06" x2="861.06" y2="99.06" width="0.1524" layer="91"/>
 <label x="861.06" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J450" gate="G$1" pin="1"/>
+<wire x1="358.14" y1="706.12" x2="381" y2="706.12" width="0.1524" layer="91"/>
+<label x="360.68" y="706.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0_7" class="0">
@@ -31497,6 +31502,34 @@ for your application.</text>
 <pinref part="TP19" gate="G$1" pin="TP"/>
 <wire x1="914.4" y1="114.3" x2="861.06" y2="114.3" width="0.1524" layer="91"/>
 <label x="861.06" y="114.3" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="485_RXD" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="R"/>
+<wire x1="259.08" y1="718.82" x2="320.04" y2="718.82" width="0.1524" layer="91"/>
+<label x="325.12" y="718.82" size="1.778" layer="95"/>
+<pinref part="D402" gate="G$1" pin="A"/>
+<wire x1="320.04" y1="718.82" x2="340.36" y2="718.82" width="0.1524" layer="91"/>
+<wire x1="320.04" y1="708.66" x2="320.04" y2="718.82" width="0.1524" layer="91"/>
+<junction x="320.04" y="718.82"/>
+<pinref part="J45" gate="G$1" pin="1"/>
+<wire x1="342.9" y1="716.28" x2="340.36" y2="716.28" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="716.28" x2="340.36" y2="718.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="485_TXD" class="0">
+<segment>
+<pinref part="U40" gate="A" pin="D"/>
+<wire x1="259.08" y1="711.2" x2="294.64" y2="711.2" width="0.1524" layer="91"/>
+<label x="325.12" y="711.2" size="1.778" layer="95"/>
+<pinref part="D401" gate="G$1" pin="A"/>
+<wire x1="294.64" y1="711.2" x2="340.36" y2="711.2" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="708.66" x2="294.64" y2="711.2" width="0.1524" layer="91"/>
+<junction x="294.64" y="711.2"/>
+<pinref part="J45" gate="G$1" pin="2"/>
+<wire x1="342.9" y1="713.74" x2="340.36" y2="713.74" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="713.74" x2="340.36" y2="711.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
