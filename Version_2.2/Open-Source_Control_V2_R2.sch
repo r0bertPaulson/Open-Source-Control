@@ -23222,8 +23222,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY111" library="OSD3358-SM-RED Platform" deviceset="ISO_GND" device=""/>
 <part name="GND116" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="SUPPLY112" library="OSD3358-SM-RED Platform" deviceset="SYS_VDD1_3P3V" device=""/>
-<part name="D402" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KFKT" device="LED_EIA-STD" value="LTST-C191KFKT"/>
-<part name="D401" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
+<part name="D402" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
+<part name="D401" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
 <part name="R401" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1K"/>
 <part name="R402" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1K"/>
 <part name="GND117" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
@@ -23249,7 +23249,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND125" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND126" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="R168" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
-<part name="D19" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
+<part name="D19" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
 <part name="GND128" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="U$7" library="OSD3358-SM-RED Platform" deviceset="24VDC_AUX" device=""/>
 <part name="U27" library="OSD3358-SM-RED Platform" deviceset="LAN8710" device=""/>
@@ -23363,11 +23363,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="K5" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="JS-M1*" device="" package3d_urn="urn:adsk.eagle:package:24452/1" technology="-12V-5" value="JS1-24V-F"/>
 <part name="X21" library="con-phoenix-381_l" deviceset="MC10" device=""/>
 <part name="IC2" library="uln-udn" library_urn="urn:adsk.eagle:library:407" deviceset="ULN2003A" device="D" package3d_urn="urn:adsk.eagle:package:30247/1"/>
-<part name="D31" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
-<part name="D32" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
-<part name="D33" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
-<part name="D34" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
-<part name="D35" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
+<part name="D31" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
+<part name="D32" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
+<part name="D33" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
+<part name="D34" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
+<part name="D35" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
 <part name="R173" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="R174" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
 <part name="R175" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K"/>
@@ -23429,7 +23429,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND33" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND36" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="X3" library="con-phoenix-381_l" deviceset="MC4" device=""/>
-<part name="D801" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KFKT" device="LED_EIA-STD" value="LTST-C191KFKT"/>
+<part name="D801" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
 <part name="D802" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
 <part name="R802" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1K"/>
 <part name="R801" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1K"/>
@@ -23463,8 +23463,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND5" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND8" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND9" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
-<part name="D301" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
-<part name="D302" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KFKT" device="LED_EIA-STD" value="LTST-C191KFKT"/>
+<part name="D301" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
+<part name="D302" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
 <part name="GND10" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND14" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="R301" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1K"/>
