@@ -233,6 +233,7 @@
 <text x="10.287" y="67.1068" size="1.27" layer="21" ratio="12" align="center-left">-</text>
 <text x="10.16" y="63.119" size="1.27" layer="21" ratio="12" align="center-left">+</text>
 <text x="10.287" y="70.739" size="1.27" layer="21" ratio="12" align="center-left">GND</text>
+<text x="10.287" y="59.309" size="1.27" layer="21" ratio="12" align="center-left">24</text>
 </plain>
 <libraries>
 <library name="OSD3358-BSP Ref Design">
@@ -4244,8 +4245,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="X6" library="OSD3358-BSP Ref Design" package="H6-2.54" value="6p-2.54" x="20.32" y="60.96" smashed="yes" rot="R270">
 <attribute name="MPN" value="P125-1106A1BS116A1" x="20.32" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="28.067" y="62.357" size="1.016" layer="25" align="top-left"/>
 <attribute name="NAME" x="17.78" y="60.325" size="0.635" layer="33" ratio="10"/>
-<attribute name="NAME" x="12.573" y="59.563" size="1.016" layer="25" align="top-left"/>
 <attribute name="VALUE" x="20.32" y="60.452" size="0.254" layer="27" align="top-center"/>
 </element>
 <element name="MGT1" library="OSD3358-BSP Ref Design" package="MOUNTING_HOLE" value="MOUNTING_HOLE" x="36.195" y="4.445" smashed="yes"/>
@@ -5461,7 +5462,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="97.028" y="6.1976" size="0.8128" layer="25" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="97.5106" y="5.08" size="0.254" layer="27" rot="R90" align="top-center"/>
 </element>
-<element name="U$1" library="oshw" package="OSHW_8MM" value="" x="57.15" y="13.97" smashed="yes"/>
+<element name="U$1" library="oshw" package="OSHW_8MM" value="" x="56.515" y="12.7" smashed="yes"/>
 <element name="T4" library="OSD3358-SM-RED Platform" package="DA230X-AL" value="DA2304-AL" x="27.94" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.512" y="118.6434" size="1.016" layer="25"/>
 <attribute name="VALUE" x="27.94" y="113.284" size="0.254" layer="27" align="bottom-center"/>
@@ -5584,8 +5585,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="J24" library="OSD3358-SM-RED Platform" package="H3-2.54" value="6p-2.54" x="98.425" y="105.41" smashed="yes">
 <attribute name="MPN" value="P125-1106A1BS116A1" x="98.425" y="105.41" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="98.425" y="101.3714" size="0.889" layer="25" ratio="10" align="top-center"/>
 <attribute name="NAME" x="99.06" y="102.87" size="0.635" layer="33" ratio="10" rot="R90"/>
+<attribute name="NAME" x="98.425" y="101.3714" size="0.889" layer="25" ratio="10" align="top-center"/>
 <attribute name="VALUE" x="98.425" y="104.14" size="0.254" layer="27" align="center"/>
 </element>
 <element name="C406" library="OSD3358-SM-RED Platform" package="A/3216-18R" value="4.7uF, 16V, T491A475K016AT" x="41.91" y="124.46" smashed="yes" rot="R270">
@@ -5667,7 +5668,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="VALUE" x="51.435" y="19.7104" size="0.254" layer="27" align="top-center"/>
 </element>
 <element name="R265" library="OSD3358-SM-RED Platform" package="R0805" value="100K" x="48.006" y="7.493" smashed="yes" rot="R180">
-<attribute name="NAME" x="50.038" y="7.493" size="0.8128" layer="25" align="center-left"/>
+<attribute name="NAME" x="48.006" y="8.5344" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="48.006" y="6.7564" size="0.254" layer="27" align="top-center"/>
 </element>
 </elements>
@@ -7586,6 +7587,26 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="35.0012" y="20.066" extent="1-16" drill="0.3048"/>
 <via x="35.0012" y="13.208" extent="1-16" drill="0.3048"/>
 <via x="35.0012" y="12.446" extent="1-16" drill="0.3048"/>
+<via x="57.15" y="55.88" extent="1-16" drill="0.3048"/>
+<via x="57.15" y="51.816" extent="1-16" drill="0.3048"/>
+<via x="57.15" y="48.006" extent="1-16" drill="0.3048"/>
+<via x="57.15" y="44.196" extent="1-16" drill="0.3048"/>
+<via x="57.15" y="34.798" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="55.88" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="51.816" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="48.006" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="44.196" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="39.497" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="34.798" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="30.988" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="27.178" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="22.479" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="17.78" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="13.97" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="10.16" extent="1-16" drill="0.3048"/>
+<via x="6.35" y="6.35" extent="1-16" drill="0.3048"/>
+<via x="57.15" y="39.497" extent="1-16" drill="0.3048"/>
+<via x="57.15" y="6.35" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="B_UART0_RX">
 <contactref element="U6" pad="2"/>
@@ -10301,10 +10322,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="6.985" y="61.214"/>
 <vertex x="10.3632" y="61.214"/>
 <vertex x="10.9982" y="60.579"/>
-<vertex x="10.9982" y="57.15"/>
-<vertex x="10.3632" y="56.515"/>
-<vertex x="0.762" y="56.515"/>
-<vertex x="0.127" y="57.15"/>
+<vertex x="10.9982" y="57.785"/>
+<vertex x="10.3632" y="57.15"/>
+<vertex x="0.762" y="57.15"/>
+<vertex x="0.127" y="57.785"/>
 <vertex x="0.127" y="129.413"/>
 <vertex x="105.918" y="129.413"/>
 <vertex x="107.188" y="128.143"/>
@@ -10426,6 +10447,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="101.1936" y="58.6994"/>
 </polygon>
 <contactref element="X8" pad="4"/>
+<via x="101.6" y="62.992" extent="1-16" drill="0.3048"/>
+<via x="102.616" y="62.992" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="N$93">
 <contactref element="R168" pad="1"/>
