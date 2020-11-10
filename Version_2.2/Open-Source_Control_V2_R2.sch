@@ -23520,6 +23520,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R245" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0805" value="100K"/>
 <part name="R255" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0805" value="100K"/>
 <part name="R265" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0805" value="100K"/>
+<part name="J7" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
+<part name="SUPPLY34" library="OSD3358-SM-RED Platform" deviceset="AGND" device=""/>
+<part name="GND34" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23744,6 +23747,9 @@ for your application.</text>
 <text x="342.9" y="685.8" size="2.54" layer="150">Use Jumpers to connect
 RS-485 to UART4 or
 PRU1 UART0</text>
+<text x="731.52" y="1064.26" size="2.54" layer="150">Jumper AGND to GND
+This is optional. Already
+connected inside SiP</text>
 </plain>
 <instances>
 <instance part="SUPPLY19" gate="G$1" x="335.28" y="1089.66" smashed="yes">
@@ -25845,6 +25851,16 @@ PRU1 UART0</text>
 <attribute name="NAME" x="681.7614" y="951.23" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="686.562" y="951.23" size="1.778" layer="96" rot="MR270"/>
 </instance>
+<instance part="J7" gate="G$1" x="759.46" y="1051.56" smashed="yes" rot="MR0">
+<attribute name="NAME" x="759.46" y="1059.18" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="759.46" y="1049.02" size="1.778" layer="96" ratio="10" rot="MR0"/>
+</instance>
+<instance part="SUPPLY34" gate="G$1" x="734.06" y="1043.94" smashed="yes">
+<attribute name="VALUE" x="734.06" y="1040.384" size="1.778" layer="96" align="center"/>
+</instance>
+<instance part="GND34" gate="1" x="744.22" y="1043.94" smashed="yes">
+<attribute name="VALUE" x="741.68" y="1041.4" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27026,6 +27042,12 @@ PRU1 UART0</text>
 <pinref part="GND32" gate="1" pin="GND"/>
 <wire x1="744.22" y1="1125.22" x2="744.22" y2="1117.6" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND34" gate="1" pin="GND"/>
+<wire x1="744.22" y1="1046.48" x2="744.22" y2="1054.1" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="744.22" y1="1054.1" x2="749.3" y2="1054.1" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="PWR_BUT" class="0">
 <segment>
@@ -28015,6 +28037,12 @@ PRU1 UART0</text>
 <pinref part="SUPPLY9" gate="G$1" pin="AGND"/>
 <pinref part="R215" gate="G$1" pin="2"/>
 <wire x1="683.26" y1="1117.6" x2="683.26" y2="1120.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY34" gate="G$1" pin="AGND"/>
+<wire x1="734.06" y1="1046.48" x2="734.06" y2="1056.64" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="734.06" y1="1056.64" x2="749.3" y2="1056.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B_UART0_RX" class="0">
