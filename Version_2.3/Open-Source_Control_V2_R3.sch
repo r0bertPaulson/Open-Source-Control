@@ -23275,7 +23275,7 @@ by exp-lbrs.ulp</description>
 <part name="ER125" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1M, 1%, DNI"/>
 <part name="ER126" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="0, 1%"/>
 <part name="GND132" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
-<part name="Y7" library="Open-Source_Control_V2_R2" deviceset="CRYSTAL-2-SMD" device="" value="ABM3-25.000MHZ-J2Y-T"/>
+<part name="Y7" library="Open-Source_Control_V2_R2" deviceset="CRYSTAL-2-SMD" device="" value="ECS-250-12-30-GN-TR"/>
 <part name="ER127" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10, 1%"/>
 <part name="GND133" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND134" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
