@@ -19866,155 +19866,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="relay" urn="urn:adsk.eagle:library:339">
-<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Eichhoff
-&lt;li&gt;Finder
-&lt;li&gt;Fujitsu
-&lt;li&gt;HAMLIN
-&lt;li&gt;OMRON
-&lt;li&gt;Matsushita
-&lt;li&gt;NAiS
-&lt;li&gt;Siemens
-&lt;li&gt;Schrack
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="JS-M" urn="urn:adsk.eagle:footprint:24147/1" library_version="1">
-<description>&lt;b&gt;Automotive Ultra-Miniature Power Relay&lt;/b&gt; NAiS&lt;p&gt;
-Source: http://www.mew-europe.com/.. en_ds_61211_0000.pdf</description>
-<wire x1="-10.9" y1="7.2904" x2="-10.2904" y2="7.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-10.2904" y1="7.9" x2="10.2904" y2="7.9" width="0.2032" layer="21"/>
-<wire x1="10.2904" y1="7.9" x2="10.9" y2="7.2904" width="0.2032" layer="21" curve="-90"/>
-<wire x1="10.9" y1="7.2904" x2="10.9" y2="-7.2904" width="0.2032" layer="21"/>
-<wire x1="10.9" y1="-7.2904" x2="10.2904" y2="-7.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="10.2904" y1="-7.9" x2="-10.2904" y2="-7.9" width="0.2032" layer="21"/>
-<wire x1="-10.2904" y1="-7.9" x2="-10.9" y2="-7.2904" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-10.9" y1="-7.2904" x2="-10.9" y2="7.2904" width="0.2032" layer="21"/>
-<pad name="C" x="8.7" y="0" drill="1.3" rot="R180"/>
-<pad name="1" x="6.7" y="6" drill="1.3" rot="R180"/>
-<pad name="2" x="6.7" y="-6" drill="1.3" rot="R180"/>
-<pad name="NO" x="-5.5" y="6" drill="1.3" rot="R180"/>
-<pad name="NC" x="-5.5" y="-6" drill="1.3" rot="R180"/>
-<text x="-8.89" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-8.89" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="JS-M" urn="urn:adsk.eagle:package:24452/1" type="box" library_version="1">
-<description>Automotive Ultra-Miniature Power Relay NAiS
-Source: http://www.mew-europe.com/.. en_ds_61211_0000.pdf</description>
-<packageinstances>
-<packageinstance name="JS-M"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="K" urn="urn:adsk.eagle:symbol:23941/1" library_version="1">
-<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
-<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
-<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
-<symbol name="U" urn="urn:adsk.eagle:symbol:23944/1" library_version="1">
-<wire x1="3.175" y1="5.08" x2="1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="5.08" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="2.54" y2="5.715" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<circle x="0" y="1.27" radius="0.127" width="0.4064" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95">&gt;PART</text>
-<pin name="O" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="S" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
-<pin name="P" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="JS-M1*" urn="urn:adsk.eagle:component:24716/1" prefix="K" library_version="1">
-<description>&lt;b&gt;Automotive Ultra-Miniature Power Relay&lt;/b&gt; NAiS&lt;p&gt;
-Source: http://www.mew-europe.com/.. en_ds_61211_0000.pdf</description>
-<gates>
-<gate name="1" symbol="K" x="-7.62" y="0" addlevel="must"/>
-<gate name="2" symbol="U" x="10.16" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="JS-M">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-<connect gate="2" pin="O" pad="NC"/>
-<connect gate="2" pin="P" pad="C"/>
-<connect gate="2" pin="S" pad="NO"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24452/1"/>
-</package3dinstances>
-<technologies>
-<technology name="-12V-4">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="JSM1-12V-4" constant="no"/>
-<attribute name="OC_FARNELL" value="910338" constant="no"/>
-<attribute name="OC_NEWARK" value="13P4552" constant="no"/>
-</technology>
-<technology name="-12V-5">
-<attribute name="MF" value="FARNELL" constant="no"/>
-<attribute name="MPN" value="JSM1-12V-5" constant="no"/>
-<attribute name="OC_FARNELL" value="910351" constant="no"/>
-<attribute name="OC_NEWARK" value="14J1764" constant="no"/>
-</technology>
-<technology name="-9V-4">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="-9V-5">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="F-12V-4">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="F-12V-5">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="F-9V-4">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="F-9V-5">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="uln-udn" urn="urn:adsk.eagle:library:407">
 <description>&lt;b&gt;Driver Arrays&lt;/b&gt;&lt;p&gt;
 ULN and UDN Series&lt;p&gt;
@@ -22883,6 +22734,24 @@ by exp-lbrs.ulp</description>
 <text x="0" y="0.254" size="0.8128" layer="25" distance="8" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-0.508" size="0.254" layer="27" distance="8" align="center">&gt;VALUE</text>
 </package>
+<package name="JS-M">
+<description>&lt;b&gt;Power Relay&lt;/b&gt;</description>
+<wire x1="-10.9" y1="7.2904" x2="-10.2904" y2="7.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-10.2904" y1="7.9" x2="10.2904" y2="7.9" width="0.2032" layer="21"/>
+<wire x1="10.2904" y1="7.9" x2="10.9" y2="7.2904" width="0.2032" layer="21" curve="-90"/>
+<wire x1="10.9" y1="7.2904" x2="10.9" y2="-7.2904" width="0.2032" layer="21"/>
+<wire x1="10.9" y1="-7.2904" x2="10.2904" y2="-7.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="10.2904" y1="-7.9" x2="-10.2904" y2="-7.9" width="0.2032" layer="21"/>
+<wire x1="-10.2904" y1="-7.9" x2="-10.9" y2="-7.2904" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-10.9" y1="-7.2904" x2="-10.9" y2="7.2904" width="0.2032" layer="21"/>
+<pad name="1" x="6.7" y="6" drill="1.3" rot="R180"/>
+<pad name="2" x="6.7" y="-6" drill="1.3" rot="R180"/>
+<pad name="C" x="8.7" y="0" drill="1.3" rot="R180"/>
+<pad name="NC" x="-5.5" y="-6" drill="1.3" rot="R180"/>
+<pad name="NO" x="-5.5" y="6" drill="1.3" rot="R180"/>
+<text x="-8.89" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LI">
@@ -22917,6 +22786,34 @@ by exp-lbrs.ulp</description>
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="K">
+<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
+</symbol>
+<symbol name="U">
+<circle x="0" y="1.27" radius="0.127" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="5.08" x2="1.905" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.175" y1="5.08" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="2.54" y2="5.715" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="O" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="P" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;PART</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SRP1265" prefix="L" uservalue="yes">
@@ -22949,6 +22846,28 @@ by exp-lbrs.ulp</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="G5LE" prefix="K">
+<description>&lt;b&gt;General Purpose Power Relay&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="K" x="-7.62" y="0" addlevel="must"/>
+<gate name="2" symbol="U" x="10.16" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="JS-M">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="2" pin="O" pad="NC"/>
+<connect gate="2" pin="P" pad="C"/>
+<connect gate="2" pin="S" pad="NO"/>
+</connects>
+<technologies>
+<technology name=""/>
+<technology name="-14-CF"/>
 </technologies>
 </device>
 </devices>
@@ -23355,11 +23274,11 @@ by exp-lbrs.ulp</description>
 <part name="R170" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1.5K, 1%"/>
 <part name="GND159" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="J3" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
-<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="JS-M1*" device="" package3d_urn="urn:adsk.eagle:package:24452/1" technology="-12V-5" value="JS1-24V-F"/>
-<part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="JS-M1*" device="" package3d_urn="urn:adsk.eagle:package:24452/1" technology="-12V-5" value="JS1-24V-F"/>
-<part name="K3" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="JS-M1*" device="" package3d_urn="urn:adsk.eagle:package:24452/1" technology="-12V-5" value="JS1-24V-F"/>
-<part name="K4" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="JS-M1*" device="" package3d_urn="urn:adsk.eagle:package:24452/1" technology="-12V-5" value="JS1-24V-F"/>
-<part name="K5" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="JS-M1*" device="" package3d_urn="urn:adsk.eagle:package:24452/1" technology="-12V-5" value="JS1-24V-F"/>
+<part name="K1" library="Open-Source_Control_V2_R2" deviceset="G5LE" device="" technology="-14-CF" value="G5LE-14-CF DC24"/>
+<part name="K2" library="Open-Source_Control_V2_R2" deviceset="G5LE" device="" technology="-14-CF" value="G5LE-14-CF DC24"/>
+<part name="K3" library="Open-Source_Control_V2_R2" deviceset="G5LE" device="" technology="-14-CF" value="G5LE-14-CF DC24"/>
+<part name="K4" library="Open-Source_Control_V2_R2" deviceset="G5LE" device="" technology="-14-CF" value="G5LE-14-CF DC24"/>
+<part name="K5" library="Open-Source_Control_V2_R2" deviceset="G5LE" device="" technology="-14-CF" value="G5LE-14-CF DC24"/>
 <part name="X21" library="con-phoenix-381_l" deviceset="MC10" device=""/>
 <part name="IC2" library="uln-udn" library_urn="urn:adsk.eagle:library:407" deviceset="ULN2003A" device="D" package3d_urn="urn:adsk.eagle:package:30247/1"/>
 <part name="D31" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
