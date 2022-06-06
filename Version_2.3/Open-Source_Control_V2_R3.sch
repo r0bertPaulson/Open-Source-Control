@@ -23763,7 +23763,7 @@ not necessary to connect these rails to
 anything else.  However, bypass capacitors 
 should be added to reduce noise, if needed 
 for your application.</text>
-<text x="1023.62" y="825.5" size="10.16" layer="94">Future AO Connect</text>
+<text x="1005.84" y="840.74" size="10.16" layer="94">Modular IO Connections</text>
 <text x="1041.4" y="393.7" size="2.54" layer="150" rot="MR0" align="top-center">TENS</text>
 <text x="1041.4" y="419.1" size="2.54" layer="150" rot="MR0" align="top-center">ONES</text>
 <text x="96.52" y="1033.78" size="2.54" layer="150" align="center-left">VAC
@@ -25777,26 +25777,26 @@ connected inside SiP</text>
 <instance part="SUPPLY29" gate="G$1" x="762" y="1000.76" smashed="yes">
 <attribute name="VALUE" x="762" y="1004.824" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="J4" gate="G$1" x="1094.74" y="802.64" smashed="yes" rot="MR0">
-<attribute name="NAME" x="1094.74" y="810.26" size="1.778" layer="95" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="1094.74" y="800.1" size="1.778" layer="96" ratio="10" rot="MR0"/>
+<instance part="J4" gate="G$1" x="1094.74" y="795.02" smashed="yes" rot="MR0">
+<attribute name="NAME" x="1094.74" y="802.64" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="1094.74" y="792.48" size="1.778" layer="96" ratio="10" rot="MR0"/>
 </instance>
-<instance part="J5" gate="G$1" x="1094.74" y="784.86" smashed="yes" rot="MR0">
-<attribute name="NAME" x="1094.74" y="792.48" size="1.778" layer="95" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="1094.74" y="782.32" size="1.778" layer="96" ratio="10" rot="MR0"/>
+<instance part="J5" gate="G$1" x="1094.74" y="777.24" smashed="yes" rot="MR0">
+<attribute name="NAME" x="1094.74" y="784.86" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="1094.74" y="774.7" size="1.778" layer="96" ratio="10" rot="MR0"/>
 </instance>
-<instance part="J6" gate="G$1" x="1094.74" y="767.08" smashed="yes" rot="MR0">
-<attribute name="NAME" x="1094.74" y="774.7" size="1.778" layer="95" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="1094.74" y="764.54" size="1.778" layer="96" ratio="10" rot="MR0"/>
+<instance part="J6" gate="G$1" x="1094.74" y="759.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="1094.74" y="767.08" size="1.778" layer="95" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="1094.74" y="756.92" size="1.778" layer="96" ratio="10" rot="MR0"/>
 </instance>
-<instance part="GND24" gate="1" x="1082.04" y="800.1" smashed="yes">
-<attribute name="VALUE" x="1079.5" y="797.56" size="1.778" layer="96"/>
+<instance part="GND24" gate="1" x="1082.04" y="792.48" smashed="yes">
+<attribute name="VALUE" x="1079.5" y="789.94" size="1.778" layer="96"/>
 </instance>
-<instance part="GND30" gate="1" x="1082.04" y="782.32" smashed="yes">
-<attribute name="VALUE" x="1079.5" y="779.78" size="1.778" layer="96"/>
+<instance part="GND30" gate="1" x="1082.04" y="774.7" smashed="yes">
+<attribute name="VALUE" x="1079.5" y="772.16" size="1.778" layer="96"/>
 </instance>
-<instance part="GND31" gate="1" x="1082.04" y="764.54" smashed="yes">
-<attribute name="VALUE" x="1079.5" y="762" size="1.778" layer="96"/>
+<instance part="GND31" gate="1" x="1082.04" y="756.92" smashed="yes">
+<attribute name="VALUE" x="1079.5" y="754.38" size="1.778" layer="96"/>
 </instance>
 <instance part="TP17" gate="G$1" x="60.96" y="86.36" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.34" y="88.9" size="1.778" layer="95"/>
@@ -27068,20 +27068,20 @@ connected inside SiP</text>
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="1084.58" y1="805.18" x2="1082.04" y2="805.18" width="0.1524" layer="91"/>
-<wire x1="1082.04" y1="805.18" x2="1082.04" y2="802.64" width="0.1524" layer="91"/>
+<wire x1="1084.58" y1="797.56" x2="1082.04" y2="797.56" width="0.1524" layer="91"/>
+<wire x1="1082.04" y1="797.56" x2="1082.04" y2="795.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="1084.58" y1="787.4" x2="1082.04" y2="787.4" width="0.1524" layer="91"/>
+<wire x1="1084.58" y1="779.78" x2="1082.04" y2="779.78" width="0.1524" layer="91"/>
 <pinref part="GND30" gate="1" pin="GND"/>
-<wire x1="1082.04" y1="787.4" x2="1082.04" y2="784.86" width="0.1524" layer="91"/>
+<wire x1="1082.04" y1="779.78" x2="1082.04" y2="777.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="2"/>
-<wire x1="1084.58" y1="769.62" x2="1082.04" y2="769.62" width="0.1524" layer="91"/>
+<wire x1="1084.58" y1="762" x2="1082.04" y2="762" width="0.1524" layer="91"/>
 <pinref part="GND31" gate="1" pin="GND"/>
-<wire x1="1082.04" y1="769.62" x2="1082.04" y2="767.08" width="0.1524" layer="91"/>
+<wire x1="1082.04" y1="762" x2="1082.04" y2="759.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="RTC1" gate="G$1" pin="GND"/>
@@ -27413,8 +27413,8 @@ connected inside SiP</text>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
-<wire x1="1084.58" y1="772.16" x2="1064.26" y2="772.16" width="0.1524" layer="91"/>
-<label x="1064.26" y="772.16" size="1.778" layer="95"/>
+<wire x1="1084.58" y1="764.54" x2="1064.26" y2="764.54" width="0.1524" layer="91"/>
+<label x="1064.26" y="764.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EHRPWM2A" class="0">
@@ -27425,8 +27425,8 @@ connected inside SiP</text>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="1084.58" y1="789.94" x2="1064.26" y2="789.94" width="0.1524" layer="91"/>
-<label x="1064.26" y="789.94" size="1.778" layer="95"/>
+<wire x1="1084.58" y1="782.32" x2="1064.26" y2="782.32" width="0.1524" layer="91"/>
+<label x="1064.26" y="782.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EHRPWM1B" class="0">
@@ -27444,8 +27444,8 @@ connected inside SiP</text>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="1084.58" y1="807.72" x2="1064.26" y2="807.72" width="0.1524" layer="91"/>
-<label x="1064.26" y="807.72" size="1.778" layer="95"/>
+<wire x1="1084.58" y1="800.1" x2="1064.26" y2="800.1" width="0.1524" layer="91"/>
+<label x="1064.26" y="800.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MMC0_DAT3" class="0">
