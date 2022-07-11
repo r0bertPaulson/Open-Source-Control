@@ -11002,20 +11002,20 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="94.234" y1="70.485" x2="95.7834" y2="70.485" width="0.254" layer="1"/>
 <wire x1="94.234" y1="70.485" x2="93.218" y2="69.469" width="0.254" layer="1"/>
 <contactref element="X8" pad="3"/>
-<wire x1="93.218" y1="69.469" x2="93.218" y2="18.6182" width="0.254" layer="1"/>
-<wire x1="93.218" y1="18.6182" x2="95.2754" y2="16.5608" width="0.254" layer="1"/>
+<wire x1="93.218" y1="69.469" x2="93.218" y2="18.542" width="0.254" layer="1"/>
+<wire x1="93.218" y1="18.542" x2="95.1992" y2="16.5608" width="0.254" layer="1"/>
 <wire x1="97.79" y1="15.24" x2="96.4692" y2="16.5608" width="0.254" layer="1"/>
-<wire x1="96.4692" y1="16.5608" x2="95.2754" y2="16.5608" width="0.254" layer="1"/>
+<wire x1="96.4692" y1="16.5608" x2="95.1992" y2="16.5608" width="0.254" layer="1"/>
 </signal>
 <signal name="BO5_AUTO">
 <contactref element="IC2" pad="12"/>
 <wire x1="95.7834" y1="69.215" x2="94.234" y2="69.215" width="0.254" layer="1"/>
 <wire x1="94.234" y1="69.215" x2="93.726" y2="68.707" width="0.254" layer="1"/>
 <contactref element="X8" pad="1"/>
-<wire x1="93.726" y1="68.707" x2="93.726" y2="19.4056" width="0.254" layer="1"/>
-<wire x1="93.726" y1="19.4056" x2="95.7834" y2="17.3482" width="0.254" layer="1"/>
+<wire x1="93.726" y1="68.707" x2="93.726" y2="19.304" width="0.254" layer="1"/>
+<wire x1="93.726" y1="19.304" x2="95.6818" y2="17.3482" width="0.254" layer="1"/>
 <wire x1="100.33" y1="15.24" x2="98.2218" y2="17.3482" width="0.254" layer="1"/>
-<wire x1="98.2218" y1="17.3482" x2="95.7834" y2="17.3482" width="0.254" layer="1"/>
+<wire x1="98.2218" y1="17.3482" x2="95.6818" y2="17.3482" width="0.254" layer="1"/>
 </signal>
 <signal name="N$130">
 <contactref element="R20" pad="1"/>
@@ -11660,8 +11660,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="X8" pad="4"/>
 <contactref element="R174" pad="2"/>
 <contactref element="K4" pad="2"/>
-<wire x1="99.06" y1="19.877" x2="97.505" y2="21.432" width="0.254" layer="16"/>
-<wire x1="99.06" y1="19.877" x2="99.06" y2="13.97" width="0.254" layer="16"/>
+<wire x1="99.06" y1="16.51" x2="97.505" y2="18.065" width="0.254" layer="16"/>
+<wire x1="97.505" y1="18.065" x2="97.505" y2="21.432" width="0.254" layer="16"/>
+<wire x1="99.06" y1="16.51" x2="99.06" y2="13.97" width="0.254" layer="16"/>
 <wire x1="97.79" y1="12.7" x2="99.06" y2="13.97" width="0.254" layer="16"/>
 <wire x1="104.8512" y1="24.13" x2="100.203" y2="24.13" width="0.254" layer="1"/>
 <wire x1="100.203" y1="24.13" x2="97.505" y2="21.432" width="0.254" layer="1"/>
@@ -11670,8 +11671,9 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="X8" pad="6"/>
 <contactref element="R173" pad="2"/>
 <contactref element="K3" pad="2"/>
-<wire x1="95.25" y1="21.336" x2="96.52" y2="20.066" width="0.254" layer="16"/>
-<wire x1="96.52" y1="20.066" x2="96.52" y2="13.9446" width="0.254" layer="16"/>
+<wire x1="96.52" y1="16.51" x2="95.25" y2="17.78" width="0.254" layer="16"/>
+<wire x1="95.25" y1="21.336" x2="95.25" y2="17.78" width="0.254" layer="16"/>
+<wire x1="96.52" y1="16.51" x2="96.52" y2="13.9446" width="0.254" layer="16"/>
 <wire x1="96.52" y1="13.9446" x2="95.2754" y2="12.7" width="0.254" layer="16"/>
 <wire x1="95.25" y1="12.7" x2="95.2754" y2="12.7" width="0.254" layer="16"/>
 <via x="95.25" y="21.336" extent="1-16" drill="0.3048"/>
