@@ -31522,7 +31522,7 @@ not used</text>
 <junction x="68.58" y="718.82"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="24LIN_IN" class="0">
 <segment>
 <pinref part="VREG2" gate="A" pin="IN"/>
 <wire x1="185.42" y1="1033.78" x2="165.1" y2="1033.78" width="0.1524" layer="91"/>

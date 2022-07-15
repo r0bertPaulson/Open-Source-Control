@@ -4169,8 +4169,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="X6" library="OSD3358-BSP Ref Design" package="H6-2.54" value="6p-2.54" x="20.32" y="60.96" smashed="yes" rot="R270">
 <attribute name="MPN" value="P125-1106A1BS116A1" x="20.32" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="17.78" y="60.325" size="0.635" layer="33" ratio="10"/>
 <attribute name="NAME" x="28.067" y="62.357" size="1.016" layer="25" align="top-left"/>
+<attribute name="NAME" x="17.78" y="60.325" size="0.635" layer="33" ratio="10"/>
 <attribute name="VALUE" x="20.32" y="60.452" size="0.254" layer="27" align="top-center"/>
 </element>
 <element name="MGT1" library="OSD3358-BSP Ref Design" package="MOUNTING_HOLE" value="MOUNTING_HOLE" x="36.195" y="4.445" smashed="yes"/>
@@ -5467,8 +5467,8 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="J24" library="OSD3358-SM-RED Platform" package="H3-2.54" value="6p-2.54" x="98.425" y="105.41" smashed="yes">
 <attribute name="MPN" value="P125-1106A1BS116A1" x="98.425" y="105.41" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="98.425" y="101.3714" size="0.889" layer="25" ratio="10" align="top-center"/>
 <attribute name="NAME" x="99.06" y="102.87" size="0.635" layer="33" ratio="10" rot="R90"/>
+<attribute name="NAME" x="98.425" y="101.3714" size="0.889" layer="25" ratio="10" align="top-center"/>
 <attribute name="VALUE" x="98.425" y="104.14" size="0.254" layer="27" align="center"/>
 </element>
 <element name="C406" library="OSD3358-SM-RED Platform" package="A/3216-18R" value="4.7uF, 16V, T491A475K016AT" x="41.91" y="124.46" smashed="yes" rot="R270">
@@ -10123,26 +10123,26 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="65.659" y="113.157"/>
 <vertex x="65.659" y="110.7186"/>
 </polygon>
-<via x="97.028" y="115.189" extent="1-16" drill="0.3048"/>
-<via x="97.028" y="114.173" extent="1-16" drill="0.3048"/>
-<via x="98.044" y="114.173" extent="1-16" drill="0.3048"/>
-<via x="98.044" y="115.189" extent="1-16" drill="0.3048"/>
-<via x="98.044" y="116.205" extent="1-16" drill="0.3048"/>
-<via x="97.028" y="116.205" extent="1-16" drill="0.3048"/>
+<via x="97.028" y="115.316" extent="1-16" drill="0.3048"/>
+<via x="97.028" y="114.3" extent="1-16" drill="0.3048"/>
+<via x="98.044" y="114.3" extent="1-16" drill="0.3048"/>
+<via x="98.044" y="115.316" extent="1-16" drill="0.3048"/>
+<via x="98.044" y="116.332" extent="1-16" drill="0.3048"/>
+<via x="97.028" y="116.332" extent="1-16" drill="0.3048"/>
 <polygon width="0.254" layer="16">
 <vertex x="65.913" y="110.4646"/>
 <vertex x="81.534" y="110.4646"/>
 <vertex x="81.788" y="110.7186"/>
-<vertex x="81.788" y="112.141"/>
-<vertex x="83.185" y="113.538"/>
-<vertex x="101.473" y="113.538"/>
-<vertex x="101.727" y="113.792"/>
+<vertex x="81.788" y="112.522"/>
+<vertex x="83.058" y="113.792"/>
+<vertex x="101.473" y="113.792"/>
+<vertex x="101.727" y="114.046"/>
 <vertex x="101.727" y="116.586"/>
 <vertex x="101.473" y="116.84"/>
 <vertex x="79.502" y="116.84"/>
 <vertex x="79.248" y="116.586"/>
-<vertex x="79.248" y="115.062"/>
-<vertex x="78.994" y="114.808"/>
+<vertex x="79.248" y="116.078"/>
+<vertex x="77.978" y="114.808"/>
 <vertex x="65.913" y="114.808"/>
 <vertex x="65.659" y="114.554"/>
 <vertex x="65.659" y="110.7186"/>
@@ -11330,17 +11330,17 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="14.4272" y1="116.84" x2="16.002" y2="116.84" width="1.27" layer="16"/>
 <wire x1="13.1572" y1="118.11" x2="14.4272" y2="116.84" width="1.27" layer="16"/>
 </signal>
-<signal name="N$17">
+<signal name="24LIN_IN">
 <contactref element="VREG2" pad="IN"/>
 <contactref element="C105" pad="1"/>
 <wire x1="83.185" y1="110.109" x2="80.775" y2="110.109" width="0.508" layer="1"/>
 <wire x1="80.775" y1="110.109" x2="80.772" y2="110.112" width="0.508" layer="1"/>
 <contactref element="J24" pad="1"/>
-<wire x1="98.425" y1="107.95" x2="98.425" y2="111.506" width="0.8128" layer="16"/>
-<wire x1="98.425" y1="111.506" x2="97.155" y2="112.776" width="0.8128" layer="16"/>
-<wire x1="97.155" y1="112.776" x2="84.5566" y2="112.776" width="0.8128" layer="16"/>
-<wire x1="84.5566" y1="112.776" x2="83.185" y2="111.4044" width="0.8128" layer="16"/>
-<wire x1="83.185" y1="111.4044" x2="83.185" y2="110.109" width="0.8128" layer="16"/>
+<wire x1="98.425" y1="107.95" x2="98.425" y2="112.4458" width="1.524" layer="16"/>
+<wire x1="98.425" y1="112.4458" x2="97.79" y2="113.0808" width="1.524" layer="16"/>
+<wire x1="97.79" y1="113.0808" x2="83.82" y2="113.0808" width="1.524" layer="16"/>
+<wire x1="83.82" y1="113.0808" x2="83.185" y2="112.4458" width="1.524" layer="16"/>
+<wire x1="83.185" y1="112.4458" x2="83.185" y2="110.109" width="1.524" layer="16"/>
 </signal>
 <signal name="1P8V_REF_2">
 <contactref element="IC12" pad="8"/>
