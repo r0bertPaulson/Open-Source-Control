@@ -11674,26 +11674,26 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <contactref element="R173" pad="2"/>
 <contactref element="K3" pad="2"/>
 <wire x1="96.52" y1="17.78" x2="95.25" y2="19.05" width="0.254" layer="16"/>
-<wire x1="95.25" y1="22.352" x2="95.25" y2="19.05" width="0.254" layer="16"/>
+<wire x1="95.25" y1="22.86" x2="95.25" y2="19.05" width="0.254" layer="16"/>
 <wire x1="96.52" y1="17.78" x2="96.52" y2="15.2146" width="0.254" layer="16"/>
 <wire x1="96.52" y1="15.2146" x2="95.2754" y2="13.97" width="0.254" layer="16"/>
 <wire x1="95.25" y1="13.97" x2="95.2754" y2="13.97" width="0.254" layer="16"/>
-<via x="95.25" y="22.352" extent="1-16" drill="0.3048"/>
-<wire x1="95.25" y1="22.352" x2="92.456" y2="19.558" width="0.254" layer="16"/>
+<via x="95.25" y="22.86" extent="1-16" drill="0.3048"/>
+<wire x1="95.25" y1="22.86" x2="91.948" y2="19.558" width="0.254" layer="16"/>
 <wire x1="77.154" y1="19.558" x2="75.28" y2="21.432" width="0.254" layer="16"/>
-<wire x1="92.456" y1="19.558" x2="77.154" y2="19.558" width="0.254" layer="16"/>
-<wire x1="95.25" y1="22.352" x2="95.25" y2="25.9588" width="0.254" layer="1"/>
+<wire x1="91.948" y1="19.558" x2="77.154" y2="19.558" width="0.254" layer="16"/>
+<wire x1="95.25" y1="22.86" x2="95.25" y2="25.9588" width="0.254" layer="1"/>
 <wire x1="95.25" y1="25.9588" x2="104.8512" y2="35.56" width="0.254" layer="1"/>
 </signal>
 <signal name="BO2">
 <contactref element="X8" pad="8"/>
 <contactref element="R172" pad="2"/>
 <contactref element="K2" pad="2"/>
-<wire x1="93.98" y1="20.193" x2="93.98" y2="15.24" width="0.254" layer="16"/>
+<wire x1="93.98" y1="20.32" x2="93.98" y2="15.24" width="0.254" layer="16"/>
 <wire x1="92.71" y1="13.97" x2="93.98" y2="15.24" width="0.254" layer="16"/>
-<wire x1="94.488" y1="20.701" x2="93.98" y2="20.193" width="0.254" layer="16"/>
-<via x="94.488" y="20.701" extent="1-16" drill="0.3048"/>
-<wire x1="94.488" y1="20.701" x2="94.488" y2="26.67" width="0.254" layer="1"/>
+<wire x1="94.488" y1="20.828" x2="93.98" y2="20.32" width="0.254" layer="16"/>
+<via x="94.488" y="20.828" extent="1-16" drill="0.3048"/>
+<wire x1="94.488" y1="20.828" x2="94.488" y2="26.67" width="0.254" layer="1"/>
 <wire x1="94.488" y1="26.67" x2="99.7204" y2="31.9024" width="0.254" layer="1"/>
 <wire x1="99.7204" y1="31.9024" x2="99.7204" y2="41.0606" width="0.254" layer="1"/>
 <wire x1="99.7204" y1="41.0606" x2="97.505" y2="43.276" width="0.254" layer="1"/>
