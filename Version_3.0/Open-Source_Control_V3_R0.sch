@@ -23431,7 +23431,6 @@ EIA-STD, P47F, GREEN</description>
 <part name="ER122" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="0, 1%"/>
 <part name="U28" library="BeagleBone_Blue" deviceset="TCAN1051HV" device=""/>
 <part name="GND148" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
-<part name="SUPPLY121" library="OSD3358-SM-RED Platform" deviceset="SYS_VDD1_3P3V" device=""/>
 <part name="GND149" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="GND150" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="SUPPLY125" library="OSD3358-SM-RED Platform" deviceset="AGND" device=""/>
@@ -23621,6 +23620,7 @@ EIA-STD, P47F, GREEN</description>
 <part name="SUPPLY35" library="OSD3358-SM-RED Platform" deviceset="SYS_VDD1_3P3V" device=""/>
 <part name="GND35" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="X8" library="OSD3358-SM-RED Platform" deviceset="TH-2X10" device=""/>
+<part name="SUPPLY36" library="OSD3358-SM-RED Platform" deviceset="VDD_5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25210,9 +25210,6 @@ not used</text>
 <instance part="GND148" gate="1" x="881.38" y="678.18" smashed="yes">
 <attribute name="VALUE" x="878.84" y="675.64" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY121" gate="G$1" x="881.38" y="713.74" smashed="yes">
-<attribute name="VALUE" x="881.38" y="717.804" size="1.778" layer="96" align="center"/>
-</instance>
 <instance part="GND149" gate="1" x="119.38" y="388.62" smashed="yes">
 <attribute name="VALUE" x="116.84" y="386.08" size="1.778" layer="96"/>
 </instance>
@@ -25941,6 +25938,9 @@ not used</text>
 <attribute name="NAME" x="1079.5" y="792.48" size="1.778" layer="95" ratio="10"/>
 <attribute name="VALUE" x="1079.5" y="762" size="1.778" layer="96" ratio="10"/>
 </instance>
+<instance part="SUPPLY36" gate="G$1" x="881.38" y="711.2" smashed="yes">
+<attribute name="VALUE" x="881.38" y="715.264" size="1.778" layer="96" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25981,6 +25981,15 @@ not used</text>
 <wire x1="132.08" y1="223.52" x2="121.92" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="223.52" x2="121.92" y2="226.06" width="0.1524" layer="91"/>
 <junction x="121.92" y="226.06"/>
+</segment>
+<segment>
+<pinref part="SUPPLY36" gate="G$1" pin="VDD_5V"/>
+<pinref part="C801" gate="G$1" pin="1"/>
+<wire x1="881.38" y1="708.66" x2="881.38" y2="703.58" width="0.1524" layer="91"/>
+<pinref part="U28" gate="G$1" pin="VCC"/>
+<wire x1="886.46" y1="698.5" x2="886.46" y2="703.58" width="0.1524" layer="91"/>
+<wire x1="886.46" y1="703.58" x2="881.38" y2="703.58" width="0.1524" layer="91"/>
+<junction x="881.38" y="703.58"/>
 </segment>
 </net>
 <net name="PWR_EN" class="0">
@@ -29645,16 +29654,6 @@ not used</text>
 <wire x1="767.08" y1="845.82" x2="767.08" y2="848.36" width="0.1524" layer="91"/>
 <wire x1="767.08" y1="848.36" x2="756.92" y2="848.36" width="0.1524" layer="91"/>
 <junction x="756.92" y="848.36"/>
-</segment>
-<segment>
-<pinref part="U28" gate="G$1" pin="VCC"/>
-<pinref part="SUPPLY121" gate="G$1" pin="SYS_VDD1_3P3V"/>
-<pinref part="C801" gate="G$1" pin="1"/>
-<wire x1="881.38" y1="703.58" x2="881.38" y2="706.12" width="0.1524" layer="91"/>
-<wire x1="881.38" y1="706.12" x2="881.38" y2="711.2" width="0.1524" layer="91"/>
-<wire x1="886.46" y1="706.12" x2="886.46" y2="698.5" width="0.1524" layer="91"/>
-<wire x1="886.46" y1="706.12" x2="881.38" y2="706.12" width="0.1524" layer="91"/>
-<junction x="881.38" y="706.12"/>
 </segment>
 <segment>
 <pinref part="S11" gate="1" pin="C"/>
