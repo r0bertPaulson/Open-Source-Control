@@ -23528,8 +23528,8 @@ EIA-STD, P47F, GREEN</description>
 <part name="X3" library="con-phoenix-381_l" deviceset="MC4" device=""/>
 <part name="D801" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KRKT" device="LED_EIA-STD" value="LTST-C191KRKT"/>
 <part name="D802" library="OSD3358-SM-RED Platform" deviceset="LTST-C191KGKT" device="LED_EIA-STD" value="LTST-C191KGKT"/>
-<part name="R802" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="500"/>
-<part name="R801" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="500"/>
+<part name="R802" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1K"/>
+<part name="R801" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1K"/>
 <part name="FRAME17" library="OSD3358-SM-RED Platform" deviceset="FRAMES_GEN" device=""/>
 <part name="FRAME1" library="OSD3358-SM-RED Platform" deviceset="FRAMES_GEN" device=""/>
 <part name="T4" library="OSD3358-SM-RED Platform" deviceset="DA2304-AL" device=""/>
@@ -25567,9 +25567,9 @@ not used</text>
 <instance part="X3" gate=".4" x="88.9" y="1069.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="96.52" y="1071.245" size="1.524" layer="95" rot="MR0"/>
 </instance>
-<instance part="D801" gate="G$1" x="853.44" y="685.8" smashed="yes">
-<attribute name="NAME" x="850.9" y="685.8" size="1.778" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="853.44" y="680.72" size="1.778" layer="96" align="bottom-right"/>
+<instance part="D801" gate="G$1" x="850.9" y="685.8" smashed="yes">
+<attribute name="NAME" x="848.36" y="685.8" size="1.778" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="850.9" y="680.72" size="1.778" layer="96" align="bottom-right"/>
 </instance>
 <instance part="D802" gate="G$1" x="830.58" y="685.8" smashed="yes">
 <attribute name="NAME" x="828.04" y="685.8" size="1.778" layer="95" align="bottom-right"/>
@@ -25579,9 +25579,9 @@ not used</text>
 <attribute name="NAME" x="833.12" y="698.5" size="1.778" layer="95"/>
 <attribute name="VALUE" x="833.12" y="693.42" size="1.778" layer="96"/>
 </instance>
-<instance part="R801" gate="G$1" x="853.44" y="695.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="855.98" y="698.5" size="1.778" layer="95"/>
-<attribute name="VALUE" x="855.98" y="693.42" size="1.778" layer="96"/>
+<instance part="R801" gate="G$1" x="850.9" y="695.96" smashed="yes" rot="R270">
+<attribute name="NAME" x="853.44" y="698.5" size="1.778" layer="95"/>
+<attribute name="VALUE" x="853.44" y="693.42" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME17" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="313.69" y="15.24" size="2.54" layer="94"/>
@@ -28178,11 +28178,11 @@ not used</text>
 <segment>
 <pinref part="U28" gate="G$1" pin="TXD"/>
 <label x="815.34" y="675.64" size="1.778" layer="95"/>
-<wire x1="886.46" y1="675.64" x2="853.44" y2="675.64" width="0.1524" layer="91"/>
+<wire x1="886.46" y1="675.64" x2="850.9" y2="675.64" width="0.1524" layer="91"/>
 <pinref part="D801" gate="G$1" pin="C"/>
-<wire x1="853.44" y1="675.64" x2="815.34" y2="675.64" width="0.1524" layer="91"/>
-<wire x1="853.44" y1="680.72" x2="853.44" y2="675.64" width="0.1524" layer="91"/>
-<junction x="853.44" y="675.64"/>
+<wire x1="850.9" y1="675.64" x2="815.34" y2="675.64" width="0.1524" layer="91"/>
+<wire x1="850.9" y1="680.72" x2="850.9" y2="675.64" width="0.1524" layer="91"/>
+<junction x="850.9" y="675.64"/>
 </segment>
 <segment>
 <pinref part="U1" gate="C" pin="UART1_TXD"/>
@@ -29836,9 +29836,9 @@ not used</text>
 <wire x1="838.2" y1="703.58" x2="830.58" y2="703.58" width="0.1524" layer="91"/>
 <wire x1="830.58" y1="703.58" x2="830.58" y2="701.04" width="0.1524" layer="91"/>
 <pinref part="R801" gate="G$1" pin="1"/>
-<wire x1="853.44" y1="701.04" x2="853.44" y2="703.58" width="0.1524" layer="91"/>
-<wire x1="853.44" y1="703.58" x2="838.2" y2="703.58" width="0.1524" layer="91"/>
 <junction x="838.2" y="703.58"/>
+<wire x1="850.9" y1="703.58" x2="838.2" y2="703.58" width="0.1524" layer="91"/>
+<wire x1="850.9" y1="701.04" x2="850.9" y2="703.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SYS_VDD_1P8V" class="0">
@@ -31873,7 +31873,7 @@ not used</text>
 <segment>
 <pinref part="R801" gate="G$1" pin="2"/>
 <pinref part="D801" gate="G$1" pin="A"/>
-<wire x1="853.44" y1="690.88" x2="853.44" y2="688.34" width="0.1524" layer="91"/>
+<wire x1="850.9" y1="690.88" x2="850.9" y2="688.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
