@@ -24761,15 +24761,15 @@ not used</text>
 <instance part="SUPPLY96" gate="G$1" x="647.7" y="972.82" smashed="yes">
 <attribute name="VALUE" x="647.7" y="969.264" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="X41" gate="-1" x="45.72" y="723.9" smashed="yes">
-<attribute name="NAME" x="39.116" y="724.789" size="1.778" layer="95" rot="R180"/>
+<instance part="X41" gate="-1" x="35.56" y="718.82" smashed="yes">
+<attribute name="NAME" x="28.956" y="719.709" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X41" gate="-2" x="45.72" y="718.82" smashed="yes">
-<attribute name="NAME" x="39.116" y="719.709" size="1.778" layer="95" rot="R180"/>
+<instance part="X41" gate="-2" x="35.56" y="723.9" smashed="yes">
+<attribute name="NAME" x="28.956" y="724.789" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X41" gate="-3" x="45.72" y="713.74" smashed="yes">
-<attribute name="VALUE" x="38.1" y="709.93" size="1.778" layer="96"/>
-<attribute name="NAME" x="39.116" y="714.629" size="1.778" layer="95" rot="R180"/>
+<instance part="X41" gate="-3" x="35.56" y="728.98" smashed="yes">
+<attribute name="VALUE" x="30.48" y="712.47" size="1.778" layer="96"/>
+<attribute name="NAME" x="28.956" y="729.869" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="VREG4" gate="A" x="114.3" y="772.16" smashed="yes">
 <attribute name="NAME" x="132.4356" y="781.2786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -30471,10 +30471,10 @@ not used</text>
 </net>
 <net name="ISO_GND" class="0">
 <segment>
-<pinref part="X41" gate="-3" pin="1"/>
 <pinref part="SUPPLY106" gate="G$1" pin="ISO_GND"/>
-<wire x1="50.8" y1="713.74" x2="53.34" y2="713.74" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="713.74" x2="53.34" y2="690.88" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="728.98" x2="53.34" y2="690.88" width="0.1524" layer="91"/>
+<pinref part="X41" gate="-3" pin="1"/>
+<wire x1="40.64" y1="728.98" x2="53.34" y2="728.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U40" gate="A" pin="GND2"/>
@@ -31552,22 +31552,22 @@ not used</text>
 <net name="41_A" class="0">
 <segment>
 <pinref part="F401" gate="G$1" pin="1"/>
-<pinref part="X41" gate="-1" pin="1"/>
 <wire x1="91.44" y1="723.9" x2="83.82" y2="723.9" width="0.1524" layer="91"/>
 <pinref part="GDT1" gate="G$1" pin="2"/>
-<wire x1="83.82" y1="723.9" x2="50.8" y2="723.9" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="706.12" x2="83.82" y2="723.9" width="0.1524" layer="91"/>
+<pinref part="X41" gate="-2" pin="1"/>
+<wire x1="83.82" y1="723.9" x2="40.64" y2="723.9" width="0.1524" layer="91"/>
 <junction x="83.82" y="723.9"/>
 </segment>
 </net>
 <net name="41_B" class="0">
 <segment>
 <pinref part="F402" gate="G$1" pin="1"/>
-<pinref part="X41" gate="-2" pin="1"/>
 <wire x1="91.44" y1="718.82" x2="68.58" y2="718.82" width="0.1524" layer="91"/>
 <pinref part="GDT1" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="718.82" x2="50.8" y2="718.82" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="706.12" x2="68.58" y2="718.82" width="0.1524" layer="91"/>
+<pinref part="X41" gate="-1" pin="1"/>
+<wire x1="68.58" y1="718.82" x2="40.64" y2="718.82" width="0.1524" layer="91"/>
 <junction x="68.58" y="718.82"/>
 </segment>
 </net>
