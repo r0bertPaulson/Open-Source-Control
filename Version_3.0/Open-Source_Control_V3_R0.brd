@@ -5153,11 +5153,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="64.6938" y="68.58" size="0.8128" layer="25" align="bottom-right"/>
 <attribute name="VALUE" x="65.8114" y="68.1736" size="0.254" layer="27" align="top-center"/>
 </element>
-<element name="R169" library="OSD3358-SM-RED Platform" package="R0402" value="1.5K, 1%" x="68.0466" y="66.548" smashed="yes" rot="R180">
+<element name="R169" library="OSD3358-SM-RED Platform" package="R0402" value="10K, 1%" x="68.0466" y="66.548" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.1642" y="66.548" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="68.0466" y="66.1162" size="0.254" layer="27" align="top-center"/>
 </element>
-<element name="R170" library="OSD3358-SM-RED Platform" package="R0402" value="1.5K, 1%" x="68.0466" y="67.564" smashed="yes" rot="R180">
+<element name="R170" library="OSD3358-SM-RED Platform" package="R0402" value="10K, 1%" x="68.0466" y="67.564" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.1642" y="67.564" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="68.0466" y="67.1322" size="0.254" layer="27" align="top-center"/>
 </element>

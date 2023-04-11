@@ -23453,8 +23453,8 @@ EIA-STD, P47F, GREEN</description>
 <part name="SUPPLY128" library="OSD3358-SM-RED Platform" deviceset="SYS_VDD1_3P3V" device=""/>
 <part name="R164" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1.5K, 1%"/>
 <part name="SUPPLY129" library="OSD3358-SM-RED Platform" deviceset="SYS_VDD1_3P3V" device=""/>
-<part name="R169" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1.5K, 1%"/>
-<part name="R170" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="1.5K, 1%"/>
+<part name="R169" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K, 1%"/>
+<part name="R170" library="OSD3358-SM-RED Platform" deviceset="R-US_" device="R0402" value="10K, 1%"/>
 <part name="GND159" library="OSD3358-SM-RED Platform" deviceset="GND" device=""/>
 <part name="J3" library="OSD3358-SM-RED Platform" deviceset="826646-2" device=""/>
 <part name="K1" library="Open-Source_Control_V2_R2" deviceset="G5LE" device="" technology="-14-CF" value="G5LE-14-CF DC24"/>
