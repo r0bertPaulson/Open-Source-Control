@@ -7628,10 +7628,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="93.472" y="8.255" extent="1-16" drill="0.3048"/>
 <wire x1="95.3262" y1="8.255" x2="93.472" y2="8.255" width="0.1524" layer="1"/>
 <via x="68.58" y="19.431" extent="1-16" drill="0.3048"/>
-<wire x1="93.472" y1="8.255" x2="91.0844" y2="10.6426" width="0.1524" layer="16"/>
-<wire x1="91.0844" y1="10.6426" x2="69.85" y2="10.6426" width="0.1524" layer="16"/>
-<wire x1="69.85" y1="10.6426" x2="68.58" y2="11.9126" width="0.1524" layer="16"/>
-<wire x1="68.58" y1="11.9126" x2="68.58" y2="19.431" width="0.1524" layer="16"/>
+<wire x1="93.472" y1="8.255" x2="91.059" y2="10.668" width="0.1524" layer="16"/>
+<wire x1="91.059" y1="10.668" x2="69.85" y2="10.668" width="0.1524" layer="16"/>
+<wire x1="69.85" y1="10.668" x2="68.58" y2="11.938" width="0.1524" layer="16"/>
+<wire x1="68.58" y1="11.938" x2="68.58" y2="19.431" width="0.1524" layer="16"/>
 <wire x1="68.58" y1="58.547" x2="68.58" y2="19.431" width="0.1524" layer="1"/>
 <contactref element="D801" pad="2"/>
 <wire x1="93.472" y1="8.255" x2="90.805" y2="8.255" width="0.1524" layer="1"/>
@@ -7655,10 +7655,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <via x="93.472" y="4.445" extent="1-16" drill="0.3048"/>
 <wire x1="95.3262" y1="4.445" x2="93.472" y2="4.445" width="0.1524" layer="1"/>
 <via x="67.31" y="19.431" extent="1-16" drill="0.3048"/>
-<wire x1="88.2396" y1="9.6774" x2="68.58" y2="9.6774" width="0.1524" layer="16"/>
-<wire x1="68.58" y1="9.6774" x2="67.31" y2="10.9474" width="0.1524" layer="16"/>
-<wire x1="67.31" y1="10.9474" x2="67.31" y2="19.431" width="0.1524" layer="16"/>
-<wire x1="93.472" y1="4.445" x2="88.2396" y2="9.6774" width="0.1524" layer="16"/>
+<wire x1="88.265" y1="9.652" x2="68.58" y2="9.652" width="0.1524" layer="16"/>
+<wire x1="68.58" y1="9.652" x2="67.31" y2="10.922" width="0.1524" layer="16"/>
+<wire x1="67.31" y1="10.922" x2="67.31" y2="19.431" width="0.1524" layer="16"/>
+<wire x1="93.472" y1="4.445" x2="88.265" y2="9.652" width="0.1524" layer="16"/>
 <wire x1="67.31" y1="59.944" x2="67.31" y2="19.431" width="0.1524" layer="1"/>
 <contactref element="D802" pad="2"/>
 <wire x1="95.3262" y1="4.445" x2="97.2312" y2="4.445" width="0.1524" layer="1"/>
