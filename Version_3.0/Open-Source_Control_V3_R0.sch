@@ -23942,7 +23942,7 @@ EIA-STD, P47F, GREEN</description>
 <part name="MTG1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
 <part name="MTG2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
 <part name="MTG3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
-<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
+<part name="MTG4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-PAD-ROUND" device="3.6" package3d_urn="urn:adsk.eagle:package:14284/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -26281,7 +26281,7 @@ not used</text>
 <attribute name="NAME" x="48.514" y="353.6442" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.514" y="350.5962" size="1.778" layer="96"/>
 </instance>
-<instance part="H4" gate="G$1" x="83.82" y="353.06" smashed="yes">
+<instance part="MTG4" gate="G$1" x="83.82" y="353.06" smashed="yes">
 <attribute name="NAME" x="86.614" y="353.6442" size="1.778" layer="95"/>
 <attribute name="VALUE" x="86.614" y="350.5962" size="1.778" layer="96"/>
 </instance>
@@ -29244,7 +29244,7 @@ not used</text>
 <pinref part="MTG2" gate="G$1" pin="MOUNT"/>
 <wire x1="81.28" y1="337.82" x2="76.2" y2="337.82" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="337.82" x2="76.2" y2="330.2" width="0.1524" layer="91"/>
-<pinref part="H4" gate="G$1" pin="MOUNT"/>
+<pinref part="MTG4" gate="G$1" pin="MOUNT"/>
 <wire x1="81.28" y1="353.06" x2="76.2" y2="353.06" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="353.06" x2="76.2" y2="337.82" width="0.1524" layer="91"/>
 <junction x="76.2" y="337.82"/>
