@@ -28489,36 +28489,36 @@ not used</text>
 <wire x1="858.52" y1="165.1" x2="858.52" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAN1_TXD" class="0">
-<segment>
-<pinref part="U28" gate="G$1" pin="TXD"/>
-<label x="815.34" y="675.64" size="1.778" layer="95"/>
-<wire x1="886.46" y1="675.64" x2="850.9" y2="675.64" width="0.1524" layer="91"/>
-<pinref part="D801" gate="G$1" pin="C"/>
-<wire x1="850.9" y1="675.64" x2="815.34" y2="675.64" width="0.1524" layer="91"/>
-<wire x1="850.9" y1="680.72" x2="850.9" y2="675.64" width="0.1524" layer="91"/>
-<junction x="850.9" y="675.64"/>
-</segment>
+<net name="CAN1_RXD" class="0">
 <segment>
 <pinref part="U1" gate="C" pin="UART1_TXD"/>
 <wire x1="914.4" y1="119.38" x2="861.06" y2="119.38" width="0.1524" layer="91"/>
 <label x="861.06" y="119.38" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="CAN1_RXD" class="0">
 <segment>
 <pinref part="U28" gate="G$1" pin="RXD"/>
 <wire x1="886.46" y1="673.1" x2="830.58" y2="673.1" width="0.1524" layer="91"/>
-<label x="815.34" y="673.1" size="1.778" layer="95"/>
+<label x="810.26" y="673.1" size="1.778" layer="95"/>
 <pinref part="D802" gate="G$1" pin="C"/>
-<wire x1="830.58" y1="673.1" x2="815.34" y2="673.1" width="0.1524" layer="91"/>
+<wire x1="830.58" y1="673.1" x2="810.26" y2="673.1" width="0.1524" layer="91"/>
 <wire x1="830.58" y1="680.72" x2="830.58" y2="673.1" width="0.1524" layer="91"/>
 <junction x="830.58" y="673.1"/>
 </segment>
+</net>
+<net name="CAN1_TXD" class="0">
 <segment>
 <pinref part="U1" gate="C" pin="UART1_RXD"/>
 <wire x1="914.4" y1="116.84" x2="861.06" y2="116.84" width="0.1524" layer="91"/>
 <label x="861.06" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U28" gate="G$1" pin="TXD"/>
+<wire x1="886.46" y1="675.64" x2="850.9" y2="675.64" width="0.1524" layer="91"/>
+<label x="810.26" y="675.64" size="1.778" layer="95"/>
+<pinref part="D801" gate="G$1" pin="C"/>
+<wire x1="850.9" y1="675.64" x2="810.26" y2="675.64" width="0.1524" layer="91"/>
+<wire x1="850.9" y1="680.72" x2="850.9" y2="675.64" width="0.1524" layer="91"/>
+<junction x="850.9" y="675.64"/>
 </segment>
 </net>
 <net name="USB0_P" class="0">
