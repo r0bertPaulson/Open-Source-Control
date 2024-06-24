@@ -27448,11 +27448,11 @@ not used</text>
 <segment>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="1145.54" y1="759.46" x2="1145.54" y2="764.54" width="0.1524" layer="91"/>
-<pinref part="X8" gate="G$1" pin="2"/>
-<wire x1="1145.54" y1="764.54" x2="1145.54" y2="782.32" width="0.1524" layer="91"/>
-<wire x1="1099.82" y1="782.32" x2="1145.54" y2="782.32" width="0.1524" layer="91"/>
 <pinref part="X8" gate="G$1" pin="16"/>
 <wire x1="1099.82" y1="764.54" x2="1145.54" y2="764.54" width="0.1524" layer="91"/>
+<pinref part="X8" gate="G$1" pin="2"/>
+<wire x1="1099.82" y1="782.32" x2="1145.54" y2="782.32" width="0.1524" layer="91"/>
+<wire x1="1145.54" y1="782.32" x2="1145.54" y2="764.54" width="0.1524" layer="91"/>
 <junction x="1145.54" y="764.54"/>
 </segment>
 <segment>
@@ -28044,13 +28044,6 @@ not used</text>
 <pinref part="IC2" gate="A" pin="I5"/>
 <wire x1="886.46" y1="970.28" x2="845.82" y2="970.28" width="0.1524" layer="91"/>
 <label x="845.82" y="970.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO1_16" class="0">
-<segment>
-<pinref part="U1" gate="C" pin="GPMC_CSN3"/>
-<wire x1="975.36" y1="81.28" x2="1031.24" y2="81.28" width="0.1524" layer="91"/>
-<label x="1018.54" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XDMA_EVENT_INTR0" class="0">
@@ -31686,9 +31679,9 @@ not used</text>
 <wire x1="106.68" y1="154.94" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X8" gate="G$1" pin="12"/>
-<wire x1="1099.82" y1="769.62" x2="1137.92" y2="769.62" width="0.1524" layer="91"/>
-<label x="1137.92" y="769.62" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="X8" gate="G$1" pin="18"/>
+<wire x1="1099.82" y1="762" x2="1137.92" y2="762" width="0.1524" layer="91"/>
+<label x="1120.14" y="762" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -32235,6 +32228,30 @@ not used</text>
 <pinref part="D405" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="711.2" x2="111.76" y2="716.28" width="0.1524" layer="91"/>
 <junction x="111.76" y="716.28"/>
+</segment>
+</net>
+<net name="GPIO1_16" class="0">
+<segment>
+<pinref part="U1" gate="C" pin="GPMC_A0"/>
+<wire x1="975.36" y1="129.54" x2="1031.24" y2="129.54" width="0.1524" layer="91"/>
+<label x="1018.54" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="A" pin="I6"/>
+<wire x1="886.46" y1="967.74" x2="845.82" y2="967.74" width="0.1524" layer="91"/>
+<label x="845.82" y="967.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BO6_AUTO" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="O6"/>
+<wire x1="911.86" y1="967.74" x2="955.04" y2="967.74" width="0.1524" layer="91"/>
+<label x="939.8" y="967.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X8" gate="G$1" pin="12"/>
+<wire x1="1099.82" y1="769.62" x2="1137.92" y2="769.62" width="0.1524" layer="91"/>
+<label x="1125.22" y="769.62" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
